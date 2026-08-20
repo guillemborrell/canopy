@@ -5,7 +5,7 @@
 
 ### Abstract
 
-This paper develops a structural interpretation of the outer region of a zero-pressure-gradient turbulent boundary layer (ZPG TBL) by combining three results that are usually discussed separately: the hierarchy of wall-attached momentum-transfer and vortex structures, their time-resolved growth and fragmentation, and the geometry of the turbulent/non-turbulent interface (TNTI). The evidence supports a *canopy* picture in which self-similar motions of many sizes overlap below the boundary-layer edge, while only the largest motions reach the intermittent region. Published figures show that intense attached Reynolds-stress objects in channels have dimensions approximately proportional to their height and carry about 60% of the Reynolds stress while occupying less than 8% of a wall-parallel plane at the identification threshold used by Lozano-Durán, Flores & Jiménez (2012). Related vortex clusters have comparable aspect ratios and a scale-dependent population. Their time histories are also self-similar, but they do not form literal trees growing continuously from the wall: many large objects form, merge, and split away from it.
+This paper develops a structural interpretation of the outer region of a zero-pressure-gradient turbulent boundary layer (ZPG TBL) by combining three results that are usually discussed separately: the hierarchy of wall-attached momentum-transfer and vortex structures, their temporal similarity, and the geometry of the turbulent/non-turbulent interface (TNTI). The evidence supports a *canopy* picture in which self-similar motions of many sizes overlap below the boundary-layer edge, while only the largest motions reach the intermittent region. Published figures show that intense attached Reynolds-stress objects in channels have dimensions approximately proportional to their height and carry about 60% of the Reynolds stress while occupying less than 8% of a wall-parallel plane at the identification threshold used by Lozano-Durán, Flores & Jiménez (2012). Related vortex clusters have comparable aspect ratios and a scale-dependent population. Time-resolved tracking shows that tall attached structures preserve the same similarity in time: their lifetimes scale with their height and \(u_\tau\). They can therefore contribute to a canopy without introducing a new outer time scale that would break wall similarity.
 
 At the outer boundary, we adopt the vorticity-interface definition and conditional coordinate established by Borrell & Jiménez (2016). Their figures 20 and 23 show two forms of continuity across that boundary: the irrotational strain outside the layer is the potential-flow footprint of large internal motions, and the locally normalised straining organisation near the interface resembles that of the turbulent core. These observations are consistent with the TNTI being the convoluted outer support of the same turbulent field that populates the logarithmic and outer layers. They do **not**, by themselves, prove that every TNTI bulge is the tip of one attached cluster or that the outer layer has no dynamics of its own. The canopy is therefore presented as a constrained synthesis and a set of testable hypotheses rather than as an established one-to-one identification.
 
@@ -19,7 +19,7 @@ The purpose of this paper is to ask whether they can be organised into one econo
 
 > The logarithmic and outer regions contain a hierarchy of overlapping, approximately self-similar turbulent structures. Their population and spatial coverage decrease with height. Near the boundary-layer edge, the union of the surviving structures becomes sparse and its convoluted vortical boundary is observed as the TNTI.
 
-The word *canopy* is useful because it conveys overlap, a distribution of heights, and an irregular upper envelope. It should not be interpreted as a forest of isolated, permanent vortex tubes rooted at the wall. The structures extracted from DNS are multiscale objects that merge and split. Moreover, most of the three-dimensional cluster evidence discussed below comes from channels, whereas the interface evidence comes from a spatially developing boundary layer. The synthesis is plausible only to the extent that the relevant logarithmic-layer organisation is shared by both flows.
+The word *canopy* is useful because it conveys overlap, a distribution of heights, and an irregular upper envelope. It should not be interpreted as a forest of isolated, permanent vortex tubes rooted at the wall. The structures extracted from DNS are multiscale objects rather than idealised individual vortices. Moreover, most of the three-dimensional cluster evidence discussed below comes from channels, whereas the interface evidence comes from a spatially developing boundary layer. The synthesis is plausible only to the extent that the relevant logarithmic-layer organisation is shared by both flows.
 
 To keep observation separate from interpretation, the paper uses the following hierarchy:
 
@@ -72,7 +72,7 @@ The principal visual and quantitative evidence used in the synthesis is summaris
 | Attached Q2/Q4 objects dominate the identified Reynolds-stress contribution while occupying a small area. | Lozano-Durán *et al.* [5], figure 2 and §3.2. |
 | The self-similar Q family has \(\Delta_x\simeq3\Delta_y\), \(\Delta_z\simeq\Delta_y\); the largest centreline-crossing objects are composite. | [5], figures 5, 6, and 8. |
 | Vortex clusters and Q objects overlap statistically and form preferential Q2–Q4 arrangements. | [5], figures 10–12. |
-| Attached branches have height-scaled lifetimes, do not all originate at the wall, and undergo mergers and splits. | Lozano-Durán & Jiménez [7], figures 9, 11, and 18–20. |
+| Tracked tall attached branches preserve geometrical and temporal wall similarity: \(T u_\tau/\Delta_y=O(1)\). | Lozano-Durán & Jiménez [7], figures 8–9. |
 | Vorticity terminates at the TNTI while strain retains the footprint and locally normalised organisation of the internal turbulence. | Borrell & Jiménez [9], figures 20 and 23. |
 | Large channel motions cross the centreline, while TBL intermittency is associated with pressure and intensity differences. | Jiménez *et al.* [4], figures 3–8. |
 | The TBL–channel intensity difference peaks in the outer layer at comparable locations over the available Reynolds numbers. | Sillero *et al.* [6], figure 6. |
@@ -142,31 +142,19 @@ This distinction prevents two misleading conclusions. First, the height of a per
 
 The spectral evidence is consistent with this multilevel picture. Figure 3 of del Álamo *et al.* [2] shows that the two-dimensional streamwise-velocity spectrum is not described by one geometrical scaling: its width varies roughly as the square root of its length, and the largest “global” modes use an outer velocity scale. Thus even below the TNTI, a structural model has to distinguish active momentum-transfer motions from longer, partly inactive streamwise-velocity organisation.
 
-### 3.3 Time evolution: self-similar, but not a literal bottom-up tree
+### 3.3 Compatibility with wall similarity
 
-The time-resolved tracking of Lozano-Durán & Jiménez [7] is crucial for interpreting attachment. Figure 8 shows geometrically self-similar tall branches, while figure 9 shows that their lifetimes satisfy approximately
+The only time-resolved result needed here is whether coherent structures can populate the canopy without breaking wall similarity. Lozano-Durán & Jiménez [7] show that tall attached branches remain geometrically self-similar and that their lifetimes satisfy
 
 \[
 T u_\tau/\Delta_y=O(1).
 \]
 
-![Lifetime scaling of detached and tall attached coherent structures](assets/figures/attached-object-lifetimes.png)
+![Lifetime of tall attached branches versus their height](assets/figures/lifetime-similarity.png)
 
-*Figure 6. Detached-object lifetimes follow a local dissipative time, whereas panels (b) and (c) show the collapse of tall attached-object lifetimes with the local turnover time. Extracted from Lozano-Durán & Jiménez [7], source figure 9.*
+*Figure 6. Lifetime of tall attached Q branches versus branch height. The dashed diagonal is \(T^+=l_y^+\). The collapse shows that the temporal scale is set by the same height and friction velocity that describe the attached hierarchy. Extracted from Lozano-Durán & Jiménez [7], source figure 9(b).*
 
-Detached objects instead have Kolmogorov-scale sizes and lifetimes. Figure 11 reveals an approximate sweep–ejection symmetry: ejections tend to appear near the wall and move away from it, while sweeps tend to appear aloft and move toward it. Vortex clusters broadly follow the ejections. Therefore “attached” does not imply that every large structure originates as a small wall object and is then convected intact to the edge. Indeed, [3] had already noted from its figure 14 that the inferred vertical growth speed required for all tall clusters to originate at the wall would be unrealistically large.
-
-![Birth, death, and vertical evolution of Q2, Q4, and vortex-cluster branches](assets/figures/sweep-ejection-birth-death.png)
-
-*Figure 7. Birth/death positions and vertical histories of ejections, sweeps, and vortex clusters. The contrast between the Q2 panels (a,c) and Q4 panels (b,d) is the evidence against a universal bottom-up trajectory. Extracted from Lozano-Durán & Jiménez [7], source figure 11.*
-
-Figures 18–20 of [7] quantify merging and splitting. Structures below about \(30\eta\) rarely participate; almost all structures above about \(100\eta\) do. Figure 19 shows many viscous-size fragments but also interactions between comparable sizes. Figure 20 shows that mergers occur preferentially early in a branch lifetime and splits late in it. The direct direction dominates, but inverse events are not negligible.
-
-![Scale and lifetime timing of mergers and splits](assets/figures/merger-split-timing.png)
-
-*Figure 8. Similar-size interaction time grows with fragment size (a); mergers, shown dashed in (b), occur preferentially early, while splits, shown solid, occur late. Extracted from Lozano-Durán & Jiménez [7], source figure 20.*
-
-These data support a **renewing canopy**, not a set of material branches. They also require care with the word *cascade*. The tracked quantities are the volume of intense momentum-transfer or vorticity objects, not spectral kinetic-energy flux. Lozano-Durán & Jiménez explicitly caution that their geometrical cascade need not be the Kolmogorov energy cascade.
+Thus the tracked structures introduce neither a separate outer length nor a separate outer time scale: geometrical dimensions scale with \(\Delta_y\), and duration scales with \(\Delta_y/u_\tau\). They are therefore compatible with a canopy that preserves wall similarity. Since the tracking was performed in channels and did not label a boundary-layer interface, it establishes compatibility, not the missing cluster-to-canopy connection.
 
 ---
 
@@ -180,7 +168,7 @@ Figure 20 of Borrell & Jiménez [9] compares wall-normal distributions of strain
 
 ![Wall-normal support of vorticity and strain across the boundary-layer edge](assets/figures/outer-strain-vorticity-support.png)
 
-*Figure 9. Joint wall-normal distributions of vorticity (blue dashed contours) and strain (black solid contours). Vorticity terminates rapidly, while strain continues into the free stream along the potential-flow decay marked in red. Extracted from Borrell & Jiménez [9], source figure 20.*
+*Figure 7. Joint wall-normal distributions of vorticity (blue dashed contours) and strain (black solid contours). Vorticity terminates rapidly, while strain continues into the free stream along the potential-flow decay marked in red. Extracted from Borrell & Jiménez [9], source figure 20.*
 
 ### 4.2 Core-to-interface continuity
 
@@ -190,7 +178,7 @@ Figure 23 of [9] provides the clearest evidence for dynamical continuity between
 
 ![Conditional vorticity, strain, stretching, and strain-eigenvalue statistics from the core to the TNTI](assets/figures/interface-core-straining-continuity.png)
 
-*Figure 10. Conditional gradient statistics at the vorticity interface. Blue dashed curves are sampled at \(7\eta\) and black solid curves at \(100\eta\). The near collapse after local-strain normalisation in panels (c,d) is direct evidence that the interface retains the straining organisation of the core. Extracted from Borrell & Jiménez [9], source figure 23.*
+*Figure 8. Conditional gradient statistics at the vorticity interface. Blue dashed curves are sampled at \(7\eta\) and black solid curves at \(100\eta\). The near collapse after local-strain normalisation in panels (c,d) is direct evidence that the interface retains the straining organisation of the core. Extracted from Borrell & Jiménez [9], source figure 23.*
 
 This is stronger support for the canopy connection than geometry alone: it shows that the edge inherits the internal turbulent straining environment. It still stops short of identifying which connected Q object or vortex cluster supplies a particular interface patch, because no cluster labels were used in this conditional average.
 
@@ -228,7 +216,7 @@ A channel is not simply a boundary layer with a reflecting outer boundary. Jimé
 
 ![Quadrant contributions and channel correlations that cross the centreline](assets/figures/channel-centreline-coupling.png)
 
-*Figure 11. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
+*Figure 9. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
 
 Higher-Reynolds-number one-point statistics confirm the difference. Figure 6 of Sillero, Jiménez & Moser [6] shows that all three velocity-component intensities exceed their channel values in the TBL, with the largest difference near \(y/\delta\simeq0.35\)–0.5 and little change in that location between the two Reynolds numbers compared. This is consistent with an edge-mediated pressure and entrainment effect, not with the outer TBL being dynamically empty.
 
@@ -242,7 +230,7 @@ The three-dimensional correlations in Sillero *et al.* [8] provide the strongest
 
 ![Integral correlation lengths in channels and boundary layers](assets/figures/boundary-layer-channel-correlation-lengths.png)
 
-*Figure 12. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
+*Figure 10. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
 
 Thus there is evidence for centreline crossing and coupling, but not for the claim that opposing hierarchies collide and destroy self-similar scaling. Nor do the cited figures show pressure–strain being artificially reoriented by a collision. If anything, the longest global streamwise modes are more developed in channels. The defensible comparison is:
 
@@ -282,13 +270,9 @@ with the vorticity intermittency \(\gamma(y)\). The comparison should include ob
 
 Evaluate mean-shear production, nonlinear transport, vortex stretching, and viscous diffusion conditioned jointly on distance from the TNTI and distance from an object top. If sparse cluster tips form the interface, the conditional budgets should differ from generic interface points at the same height. This test would determine whether the strain seen in [9, figure 23] is associated with attached structures or with more general interfacial turbulence.
 
-### 7.4 Time-resolved tracking in a TBL
+### 7.4 Matched channel/boundary-layer comparison
 
-Repeat the branch tracking of [7] in a spatially developing TBL. The hypothesis predicts self-similar lifetimes below the intermittent region and enhanced fragmentation or loss of connectivity near the edge. It does not require all objects to be born at the wall.
-
-### 7.5 Matched channel/boundary-layer comparison
-
-Use the same thresholds and object definitions at matched \(Re_\tau\). Compare object populations, branch lifetimes, centreline/TNTI termination, and the contribution of global composite objects. This would replace qualitative “collision” and “freedom” metaphors with measurable differences.
+Use the same thresholds and object definitions at matched \(Re_\tau\). Compare object populations, height scaling, centreline/TNTI termination, and canopy coverage. This would replace qualitative “collision” and “freedom” metaphors with measurable differences.
 
 ---
 
@@ -297,7 +281,7 @@ Use the same thresholds and object definitions at matched \(Re_\tau\). Compare o
 The published evidence supports a unified but qualified structural narrative.
 
 1. **Hierarchy.** Three-dimensional vortex clusters and intense Reynolds-stress objects contain attached, approximately self-similar families with wall-parallel dimensions proportional to their height [3,5]. At the threshold of [5], attached Q objects carry about 60% of the Reynolds stress while covering less than 8% of a plane.
-2. **Renewal.** Large attached objects have lifetimes proportional to their height, but merge, split, and may form away from the wall [7]. Geometric attachment is not proof of uninterrupted bottom-up growth.
+2. **Wall similarity.** Tracked tall attached structures preserve geometrical and temporal similarity: their dimensions scale with height and their lifetimes with \(\Delta_y/u_\tau\) [7]. They can therefore populate a canopy without introducing a new outer scale.
 3. **Core-to-edge continuity.** Vorticity terminates near the TNTI, but the potential strain footprint extends beyond it and the locally normalised straining organisation persists from the core towards the interface [9, figures 20 and 23].
 4. **Internal versus external flows.** Channel structures and correlations cross the centreline, whereas TBLs interact with potential fluid through intermittency and pressure. Channels possess longer, not shorter, global streamwise correlations [4,6,8].
 5. **Status of the canopy.** Interpreting the TNTI as the sparse upper support of the attached hierarchy is consistent with these observations, but the required joint cluster/TNTI analysis remains to be done.
