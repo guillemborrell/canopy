@@ -12,8 +12,6 @@ These images are cropped from the author-hosted article PDFs linked in the paper
 | `attached-object-lifetimes.png` | 9 | Lozano-Durán & Jiménez (2014), JFM 759, doi:10.1017/jfm.2014.575 |
 | `sweep-ejection-birth-death.png` | 11 | Lozano-Durán & Jiménez (2014), JFM 759, doi:10.1017/jfm.2014.575 |
 | `merger-split-timing.png` | 20 | Lozano-Durán & Jiménez (2014), JFM 759, doi:10.1017/jfm.2014.575 |
-| `vorticity-interface-thresholds.png` | 2 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
-| `interface-distance-definitions.png` | 12 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
 | `outer-strain-vorticity-support.png` | 20 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
 | `interface-core-straining-continuity.png` | 23 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
 | `channel-centreline-coupling.png` | 5 | Jiménez et al. (2010), JFM 657, doi:10.1017/S0022112010001370 |

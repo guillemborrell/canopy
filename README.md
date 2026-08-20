@@ -7,19 +7,19 @@
 
 This paper develops a structural interpretation of the outer region of a zero-pressure-gradient turbulent boundary layer (ZPG TBL) by combining three results that are usually discussed separately: the hierarchy of wall-attached momentum-transfer and vortex structures, their time-resolved growth and fragmentation, and the geometry of the turbulent/non-turbulent interface (TNTI). The evidence supports a *canopy* picture in which self-similar motions of many sizes overlap below the boundary-layer edge, while only the largest motions reach the intermittent region. Published figures show that intense attached Reynolds-stress objects in channels have dimensions approximately proportional to their height and carry about 60% of the Reynolds stress while occupying less than 8% of a wall-parallel plane at the identification threshold used by Lozano-Durán, Flores & Jiménez (2012). Related vortex clusters have comparable aspect ratios and a scale-dependent population. Their time histories are also self-similar, but they do not form literal trees growing continuously from the wall: many large objects form, merge, and split away from it.
 
-At the outer boundary, Borrell & Jiménez (2016) show that a vorticity isosurface is a physically meaningful but threshold-dependent interface. More importantly for the present argument, their figures 20 and 23 show two forms of continuity across that boundary: the irrotational strain outside the layer is the potential-flow footprint of large internal motions, and the locally normalised straining organisation near the interface resembles that of the turbulent core. These observations are consistent with the TNTI being the convoluted outer support of the same turbulent field that populates the logarithmic and outer layers. They do **not**, by themselves, prove that every TNTI bulge is the tip of one attached cluster or that the outer layer has no dynamics of its own. The canopy is therefore presented as a constrained synthesis and a set of testable hypotheses rather than as an established one-to-one identification.
+At the outer boundary, we adopt the vorticity-interface definition and conditional coordinate established by Borrell & Jiménez (2016). Their figures 20 and 23 show two forms of continuity across that boundary: the irrotational strain outside the layer is the potential-flow footprint of large internal motions, and the locally normalised straining organisation near the interface resembles that of the turbulent core. These observations are consistent with the TNTI being the convoluted outer support of the same turbulent field that populates the logarithmic and outer layers. They do **not**, by themselves, prove that every TNTI bulge is the tip of one attached cluster or that the outer layer has no dynamics of its own. The canopy is therefore presented as a constrained synthesis and a set of testable hypotheses rather than as an established one-to-one identification.
 
 ---
 
 ## 1. Motivation and scope
 
-Classical descriptions of ZPG TBLs use several complementary languages. Mean-flow descriptions divide the layer into viscous, logarithmic, wake, and intermittent regions. Structural descriptions use streaks, sweeps, ejections, vortex clusters, uniform-momentum zones, and attached eddies. Interface descriptions distinguish engulfment of large irrotational pockets from viscous nibbling at the TNTI. These descriptions are not contradictory, but they refer to different observables and should not be identified without an explicit argument.
+Classical descriptions of ZPG TBLs use several complementary languages. Mean-flow descriptions divide the layer into viscous, logarithmic, wake, and intermittent regions. Structural descriptions use streaks, sweeps, ejections, vortex clusters, uniform-momentum zones, and attached eddies. Interface descriptions distinguish rotational turbulence from its irrotational surroundings. These descriptions are not contradictory, but they refer to different observables and should not be identified without an explicit argument.
 
 The purpose of this paper is to ask whether they can be organised into one economical picture. The proposed answer is the **intermittent-canopy hypothesis**:
 
 > The logarithmic and outer regions contain a hierarchy of overlapping, approximately self-similar turbulent structures. Their population and spatial coverage decrease with height. Near the boundary-layer edge, the union of the surviving structures becomes sparse and its convoluted vortical boundary is observed as the TNTI.
 
-The word *canopy* is useful because it conveys overlap, a distribution of heights, and an irregular upper envelope. It should not be interpreted as a forest of isolated, permanent vortex tubes rooted at the wall. The structures extracted from DNS are multiscale, threshold-dependent objects that merge and split. Moreover, most of the three-dimensional cluster evidence discussed below comes from channels, whereas the interface evidence comes from a spatially developing boundary layer. The synthesis is plausible only to the extent that the relevant logarithmic-layer organisation is shared by both flows.
+The word *canopy* is useful because it conveys overlap, a distribution of heights, and an irregular upper envelope. It should not be interpreted as a forest of isolated, permanent vortex tubes rooted at the wall. The structures extracted from DNS are multiscale objects that merge and split. Moreover, most of the three-dimensional cluster evidence discussed below comes from channels, whereas the interface evidence comes from a spatially developing boundary layer. The synthesis is plausible only to the extent that the relevant logarithmic-layer organisation is shared by both flows.
 
 To keep observation separate from interpretation, the paper uses the following hierarchy:
 
@@ -27,7 +27,7 @@ To keep observation separate from interpretation, the paper uses the following h
 2. **Supported inference:** a conclusion made in the source paper from several such statistics.
 3. **Canopy hypothesis:** a connection between datasets that has not yet been tested by labelling the TNTI and the attached structures in the same boundary-layer fields.
 
-This distinction matters. For example, a wall-attached Reynolds-stress object is not the same thing as a connected vorticity object, and neither is automatically the same thing as a turbulent region defined by a TNTI threshold.
+This distinction matters. For example, a wall-attached Reynolds-stress object is not the same thing as a connected vorticity object, and neither is automatically the same thing as the turbulent region defined by the TNTI.
 
 ---
 
@@ -60,19 +60,7 @@ This follows, up to constants, from local equilibrium above the buffer layer,
 \(\nu\omega_e^2\sim u_\tau^3/\delta_{99}\). It is important that the factor is
 \(\sqrt{\delta_{99}^{+}}\) in the definition of \(\omega^*\), not its inverse. It is also the friction velocity, rather than \(U_\infty\), that enters this scaling.
 
-For a chosen threshold, the turbulent fraction is
-
-\[
-\gamma(y;\omega_0)=\Pr\{\omega(x,y,z)>\omega_0\}.
-\]
-
-If the interface were a single-valued height \(y_I(x,z)\), with no overhangs or pockets, this would reduce approximately to
-
-\[
-\gamma(y;\omega_0)\simeq \Pr\{y_I(x,z;\omega_0)>y\}.
-\]
-
-It is **not** generally equal to \(\Pr\{h_k>y\}\), where \(h_k\) is the height of a cluster. Pointwise coverage also depends on each object's footprint, overlap with other objects, the identification threshold, and whether disconnected irrotational pockets are retained. The earlier, simpler identification of intermittency with a cumulative cluster-height distribution is therefore too strong.
+With the interface convention fixed as in [9], let \(\gamma(y)\) be the probability that a point at height \(y\) lies on the turbulent side. It is **not** generally equal to \(\Pr\{h_k>y\}\), where \(h_k\) is the height of a cluster. Pointwise coverage also depends on each object's footprint, overlap, and connectivity. The earlier, simpler identification of intermittency with a cumulative cluster-height distribution is therefore too strong.
 
 ### 2.1 Map from claims to published figures
 
@@ -85,8 +73,7 @@ The principal visual and quantitative evidence used in the synthesis is summaris
 | The self-similar Q family has \(\Delta_x\simeq3\Delta_y\), \(\Delta_z\simeq\Delta_y\); the largest centreline-crossing objects are composite. | [5], figures 5, 6, and 8. |
 | Vortex clusters and Q objects overlap statistically and form preferential Q2–Q4 arrangements. | [5], figures 10–12. |
 | Attached branches have height-scaled lifetimes, do not all originate at the wall, and undergo mergers and splits. | Lozano-Durán & Jiménez [7], figures 9, 11, and 18–20. |
-| TNTI geometry changes strongly with threshold, and vertical distance hides its folds and overhangs. | Borrell & Jiménez [9], figures 2, 7, 12–13, and 17. |
-| Vorticity terminates at the TNTI while strain retains the footprint and locally normalised organisation of the internal turbulence. | [9], figures 20 and 23. |
+| Vorticity terminates at the TNTI while strain retains the footprint and locally normalised organisation of the internal turbulence. | Borrell & Jiménez [9], figures 20 and 23. |
 | Large channel motions cross the centreline, while TBL intermittency is associated with pressure and intensity differences. | Jiménez *et al.* [4], figures 3–8. |
 | The TBL–channel intensity difference peaks in the outer layer at comparable locations over the available Reynolds numbers. | Sillero *et al.* [6], figure 6. |
 | Weak streamwise correlations are much longer in channels than in TBLs, despite similar cross-flow organisation. | Sillero *et al.* [8], figures 3–5 and 9–10. |
@@ -183,39 +170,19 @@ These data support a **renewing canopy**, not a set of material branches. They a
 
 ---
 
-## 4. The intermittent edge and its internal scales
+## 4. Continuity across the established T/NT interface
 
-### 4.1 Why the interface should be based on vorticity
+We use the interface-conditioned statistics reported by Borrell & Jiménez [9] directly. The present question is what those statistics imply for the canopy framework.
 
-A velocity fluctuation can exist in irrotational fluid. Pressure and potential velocity induced by turbulence below the edge extend outside the vortical region, so a velocity- or energy-based threshold need not identify rotational turbulence.
+### 4.1 The exterior strain as the shadow of internal motions
 
-This distinction is visible in Borrell & Jiménez [9]. Their figure 20 compares wall-normal distributions of strain and vorticity. Strain persists into the free stream and follows the exponential decay expected for irrotational Fourier modes, whereas vorticity separates the rotational and potential regions. This figure is also an important bridge to the canopy interpretation: the rotational support terminates near the TNTI, but the velocity-gradient footprint of the largest internal motions continues into the potential region. The dashed diagonal identifies the potential-flow decay associated with wall-parallel wavelengths of order \(2\delta_{99}\), so the exterior strain is not evidence of a second vortical population. It can be read as the irrotational “shadow” of the turbulent canopy.
+Figure 20 of Borrell & Jiménez [9] compares wall-normal distributions of strain and vorticity. Strain persists into the free stream and follows the exponential decay expected for irrotational Fourier modes, whereas vorticity separates the rotational and potential regions. This figure is an important bridge to the canopy interpretation: the rotational support terminates near the TNTI, but the velocity-gradient footprint of the largest internal motions continues into the potential region. The dashed diagonal identifies the potential-flow decay associated with wall-parallel wavelengths of order \(2\delta_{99}\), so the exterior strain is not evidence of a second vortical population. It can be read as the irrotational “shadow” of the turbulent canopy.
 
 ![Wall-normal support of vorticity and strain across the boundary-layer edge](assets/figures/outer-strain-vorticity-support.png)
 
 *Figure 9. Joint wall-normal distributions of vorticity (blue dashed contours) and strain (black solid contours). Vorticity terminates rapidly, while strain continues into the free stream along the potential-flow decay marked in red. Extracted from Borrell & Jiménez [9], source figure 20.*
 
-Figure 21 shows that strain-isosurfaces do not exhibit the same topological transition as vorticity-isosurfaces. Most decisively, figure 22 shows sharp changes of both vorticity and strain when distance is measured from a vorticity interface, but no corresponding sharp transition when distance is measured from a strain interface. The authors therefore conclude that the vorticity interface is a physical feature, while the strain threshold is not.
-
-This does not make the TNTI unique. Figure 2 of [9] shows the same DNS region at thresholds differing by one decade. At low threshold the interface is a relatively smooth outer envelope; at the higher threshold it develops many handles and deep convolutions.
-
-![The same vorticity field rendered at two interface thresholds](assets/figures/vorticity-interface-thresholds.png)
-
-*Figure 10. The same boundary-layer region at thresholds differing by one decade. The low-threshold surface (a) behaves like an outer envelope; the higher-threshold surface (b) penetrates the turbulent field and is much more multiply connected. Extracted from Borrell & Jiménez [9], source figure 2.*
-
-Figures 3 and 4 show that changing \(\omega_0^*\) changes both the mean height and the width of the interface-height distribution. Figures 7 and the related genus results identify a topological transition over approximately \(\omega_0^*=0.1\)–2. Any canopy statement must therefore specify its threshold.
-
-### 4.2 Geometry: envelope, folds, and pockets
-
-A vertical distance to the uppermost interface crossing is convenient experimentally, but it hides overhangs and interior pockets. Borrell & Jiménez introduced a three-dimensional “ball distance” to the nearest relevant interface point. Figure 13 of [9] shows that the ball-distance interface follows the vorticity isosurface as a higher threshold penetrates the turbulent core, whereas the vertical envelope remains near \(\delta_{99}\). Figure 17 then shows that an apparent conditional-vorticity peak produced with vertical distance disappears with ball distance.
-
-![Comparison of ball and vertical distance fields around the TNTI](assets/figures/interface-distance-definitions.png)
-
-*Figure 11. Cross-sections of ball distance (a,b) and vertical distance (c,d) at low and high thresholds. Ball distance follows folds and pockets; vertical distance constructs an upper envelope and hides much of that geometry. Extracted from Borrell & Jiménez [9], source figure 12.*
-
-The distinction is directly relevant to the canopy analogy. A canopy viewed from above is an envelope, whereas the fluid interface can contain overhangs and pockets. Their *existence* matters because it prevents the turbulent fraction from being identified exactly with a single-valued canopy-height distribution. Their detailed size distribution, depth scaling, and viscous diffusion thickness do not test whether attached clusters form the canopy, and are therefore not used as evidence for the framework.
-
-### 4.3 Core-to-interface continuity, not interface thickness
+### 4.2 Core-to-interface continuity
 
 The original canopy argument treated the interface as the point where cluster tips lose mean-shear production and decay purely by viscosity. The conditional data require a more nuanced description.
 
@@ -223,11 +190,10 @@ Figure 23 of [9] provides the clearest evidence for dynamical continuity between
 
 ![Conditional vorticity, strain, stretching, and strain-eigenvalue statistics from the core to the TNTI](assets/figures/interface-core-straining-continuity.png)
 
-*Figure 12. Conditional gradient statistics at the vorticity interface. Blue dashed curves are sampled at \(7\eta\) and black solid curves at \(100\eta\). The near collapse after local-strain normalisation in panels (c,d) is direct evidence that the interface retains the straining organisation of the core. Extracted from Borrell & Jiménez [9], source figure 23.*
+*Figure 10. Conditional gradient statistics at the vorticity interface. Blue dashed curves are sampled at \(7\eta\) and black solid curves at \(100\eta\). The near collapse after local-strain normalisation in panels (c,d) is direct evidence that the interface retains the straining organisation of the core. Extracted from Borrell & Jiménez [9], source figure 23.*
 
 This is stronger support for the canopy connection than geometry alone: it shows that the edge inherits the internal turbulent straining environment. It still stops short of identifying which connected Q object or vortex cluster supplies a particular interface patch, because no cluster labels were used in this conditional average.
 
-Borrell & Jiménez also measure a Taylor-microscale interface thickness and a thinner viscous diffusion range. Those are important results for interface physics and DNS resolution, but no relation is established between either thickness and the height, spacing, population, or lifetime of the attached structures. The particular TNTI thickness is therefore peripheral to the canopy framework and is not used as one of its supporting links.
 
 ---
 
@@ -238,7 +204,6 @@ The structural and interface datasets fit together at the level of scaling and g
 * attached families supply objects over a broad range of heights [3,5];
 * their number decreases with size, while their dimensions increase with size [3,5];
 * the largest attached motions influence the full layer and the wall [5,8];
-* the boundary-layer edge is a threshold-dependent, convoluted vorticity surface rather than a single-valued height [9];
 * the outer strain is the potential-flow continuation of large internal motions, while locally normalised stretching and strain geometry remain similar from the core to the interface [9, figures 20 and 23].
 
 This motivates interpreting the intermittent region as the sparse upper support of a hierarchy rather than as a separate sheet placed on top of an otherwise complete outer flow. It also explains why a planar cut may suggest isolated bulges or packets even when the three-dimensional field is strongly connected.
@@ -263,7 +228,7 @@ A channel is not simply a boundary layer with a reflecting outer boundary. Jimé
 
 ![Quadrant contributions and channel correlations that cross the centreline](assets/figures/channel-centreline-coupling.png)
 
-*Figure 13. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
+*Figure 11. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
 
 Higher-Reynolds-number one-point statistics confirm the difference. Figure 6 of Sillero, Jiménez & Moser [6] shows that all three velocity-component intensities exceed their channel values in the TBL, with the largest difference near \(y/\delta\simeq0.35\)–0.5 and little change in that location between the two Reynolds numbers compared. This is consistent with an edge-mediated pressure and entrainment effect, not with the outer TBL being dynamically empty.
 
@@ -277,7 +242,7 @@ The three-dimensional correlations in Sillero *et al.* [8] provide the strongest
 
 ![Integral correlation lengths in channels and boundary layers](assets/figures/boundary-layer-channel-correlation-lengths.png)
 
-*Figure 14. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
+*Figure 12. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
 
 Thus there is evidence for centreline crossing and coupling, but not for the claim that opposing hierarchies collide and destroy self-similar scaling. Nor do the cited figures show pressure–strain being artificially reoriented by a collision. If anything, the longest global streamwise modes are more developed in channels. The defensible comparison is:
 
@@ -294,13 +259,13 @@ The synthesis can be tested quantitatively with existing or modest extensions of
 
 ### 7.1 Joint object/interface labelling
 
-For each snapshot and several \(\omega_0^*\), identify the cleaned TNTI, attached vorticity clusters, and attached Q objects. Measure
+For each snapshot, identify the TNTI using the established convention of [9], together with attached vorticity clusters and attached Q objects. Measure
 
 \[
 P(d_{\mathrm{TNTI}}<a\lambda\mid \text{top of attached object})
 \]
 
-and compare it with randomised objects of the same size and height. A canopy interpretation predicts a strong excess near the tops of the largest objects, robust over the low-threshold side of the topological transition.
+and compare it with randomised objects of the same size and height. A canopy interpretation predicts a strong excess near the tops of the largest objects.
 
 ### 7.2 Coverage rather than height alone
 
@@ -311,7 +276,7 @@ Construct the pointwise union of objects and compare its coverage
 \Pr\{(x,y,z)\in\cup_k Q_k(H)\}
 \]
 
-with the vorticity intermittency \(\gamma(y;\omega_0)\). The comparison should include object footprints and overlaps. A height cumulative distribution alone is insufficient.
+with the vorticity intermittency \(\gamma(y)\). The comparison should include object footprints and overlaps. A height cumulative distribution alone is insufficient.
 
 ### 7.3 Conditional budgets at structural tips
 
@@ -333,10 +298,9 @@ The published evidence supports a unified but qualified structural narrative.
 
 1. **Hierarchy.** Three-dimensional vortex clusters and intense Reynolds-stress objects contain attached, approximately self-similar families with wall-parallel dimensions proportional to their height [3,5]. At the threshold of [5], attached Q objects carry about 60% of the Reynolds stress while covering less than 8% of a plane.
 2. **Renewal.** Large attached objects have lifetimes proportional to their height, but merge, split, and may form away from the wall [7]. Geometric attachment is not proof of uninterrupted bottom-up growth.
-3. **Intermittent geometry.** The TNTI is a threshold-dependent, multiply connected vorticity surface. A nearest-surface distance resolves folds and overhangs that a vertical envelope misses [9].
-4. **Core-to-edge continuity.** Vorticity terminates near the TNTI, but the potential strain footprint extends beyond it and the locally normalised straining organisation persists from the core towards the interface [9, figures 20 and 23].
-5. **Internal versus external flows.** Channel structures and correlations cross the centreline, whereas TBLs interact with potential fluid through intermittency and pressure. Channels possess longer, not shorter, global streamwise correlations [4,6,8].
-6. **Status of the canopy.** Interpreting the TNTI as the sparse upper support of the attached hierarchy is consistent with these observations, but the required joint cluster/TNTI analysis remains to be done.
+3. **Core-to-edge continuity.** Vorticity terminates near the TNTI, but the potential strain footprint extends beyond it and the locally normalised straining organisation persists from the core towards the interface [9, figures 20 and 23].
+4. **Internal versus external flows.** Channel structures and correlations cross the centreline, whereas TBLs interact with potential fluid through intermittency and pressure. Channels possess longer, not shorter, global streamwise correlations [4,6,8].
+5. **Status of the canopy.** Interpreting the TNTI as the sparse upper support of the attached hierarchy is consistent with these observations, but the required joint cluster/TNTI analysis remains to be done.
 
 The main value of the canopy framework is therefore not that it abolishes the outer layer, but that it formulates a bridge between attached-structure statistics and interface physics while making the missing evidence explicit.
 
