@@ -1,6 +1,8 @@
 # A Structural Framework for Wall-Bounded Turbulence:
 ## The Boundary Layer as an Unconfined, Intermittent Canopy
 
+> **Publication version:** [compiled PDF](article/main.pdf) · [LaTeX source and arXiv instructions](article/)
+
 ### Abstract
 
 This paper develops a structural interpretation of the outer region of a zero-pressure-gradient turbulent boundary layer (ZPG TBL) by combining three results that are usually discussed separately: the hierarchy of wall-attached momentum-transfer and vortex structures, their time-resolved growth and fragmentation, and the geometry of the turbulent/non-turbulent interface (TNTI). The evidence supports a *canopy* picture in which self-similar motions of many sizes overlap below the boundary-layer edge, while only the largest motions reach the intermittent region. Published figures show that intense attached Reynolds-stress objects in channels have dimensions approximately proportional to their height and carry about 60% of the Reynolds stress while occupying less than 8% of a wall-parallel plane at the identification threshold used by Lozano-Durán, Flores & Jiménez (2012). Related vortex clusters have comparable aspect ratios and a scale-dependent population. Their time histories are also self-similar, but they do not form literal trees growing continuously from the wall: many large objects form, merge, and split away from it.

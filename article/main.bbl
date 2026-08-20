@@ -1,0 +1,85 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adrian et~al.(2000)Adrian, Meinhart, and Tomkins]{AdrianEtAl2000}
+Ronald~J. Adrian, Carl~D. Meinhart, and Christopher~D. Tomkins.
+\newblock Vortex organization in the outer region of the turbulent boundary
+  layer.
+\newblock \emph{Journal of Fluid Mechanics}, 422:\penalty0 1--54, 2000.
+\newblock \doi{10.1017/S0022112000001580}.
+
+\bibitem[Borrell and Jim\'enez(2016)]{BorrellJimenez2016}
+Guillem Borrell and Javier Jim\'enez.
+\newblock Properties of the turbulent/non-turbulent interface in boundary
+  layers.
+\newblock \emph{Journal of Fluid Mechanics}, 801:\penalty0 554--596, 2016.
+\newblock \doi{10.1017/jfm.2016.430}.
+
+\bibitem[Corrsin and Kistler(1955)]{CorrsinKistler1955}
+Stanley Corrsin and Alan~L. Kistler.
+\newblock Free-stream boundaries of turbulent flows.
+\newblock Technical Report NACA-TR-1244, National Advisory Committee for
+  Aeronautics, 1955.
+\newblock URL \url{https://ntrs.nasa.gov/citations/19930091020}.
+
+\bibitem[del {\'A}lamo et~al.(2004)del {\'A}lamo, Jim\'enez, Zandonade, and
+  Moser]{DelAlamoEtAl2004}
+Juan~C. del {\'A}lamo, Javier Jim\'enez, Paulo Zandonade, and Robert~D. Moser.
+\newblock Scaling of the energy spectra of turbulent channels.
+\newblock \emph{Journal of Fluid Mechanics}, 500:\penalty0 135--144, 2004.
+\newblock \doi{10.1017/S002211200300733X}.
+
+\bibitem[del {\'A}lamo et~al.(2006)del {\'A}lamo, Jim\'enez, Zandonade, and
+  Moser]{DelAlamoEtAl2006}
+Juan~C. del {\'A}lamo, Javier Jim\'enez, Paulo Zandonade, and Robert~D. Moser.
+\newblock Self-similar vortex clusters in the turbulent logarithmic region.
+\newblock \emph{Journal of Fluid Mechanics}, 561:\penalty0 329--358, 2006.
+\newblock \doi{10.1017/S0022112006000814}.
+
+\bibitem[Jim\'enez et~al.(2010)Jim\'enez, Hoyas, Simens, and
+  Mizuno]{JimenezEtAl2010}
+Javier Jim\'enez, Sergio Hoyas, Mark~P. Simens, and Yoshinori Mizuno.
+\newblock Turbulent boundary layers and channels at moderate {Reynolds}
+  numbers.
+\newblock \emph{Journal of Fluid Mechanics}, 657:\penalty0 335--360, 2010.
+\newblock \doi{10.1017/S0022112010001370}.
+
+\bibitem[Lozano-Dur\'an and Jim\'enez(2014)]{LozanoDuranJimenez2014}
+Adri\'an Lozano-Dur\'an and Javier Jim\'enez.
+\newblock Time-resolved evolution of coherent structures in turbulent channels:
+  characterization of eddies and cascades.
+\newblock \emph{Journal of Fluid Mechanics}, 759:\penalty0 432--471, 2014.
+\newblock \doi{10.1017/jfm.2014.575}.
+
+\bibitem[Lozano-Dur\'an et~al.(2012)Lozano-Dur\'an, Flores, and
+  Jim\'enez]{LozanoDuranEtAl2012}
+Adri\'an Lozano-Dur\'an, Oscar Flores, and Javier Jim\'enez.
+\newblock The three-dimensional structure of momentum transfer in turbulent
+  channels.
+\newblock \emph{Journal of Fluid Mechanics}, 694:\penalty0 100--130, 2012.
+\newblock \doi{10.1017/jfm.2011.524}.
+
+\bibitem[Sillero et~al.(2013)Sillero, Jim\'enez, and Moser]{SilleroEtAl2013}
+Juan~A. Sillero, Javier Jim\'enez, and Robert~D. Moser.
+\newblock One-point statistics for turbulent wall-bounded flows at {Reynolds}
+  numbers up to $\delta^+\approx 2000$.
+\newblock \emph{Physics of Fluids}, 25\penalty0 (10):\penalty0 105102, 2013.
+\newblock \doi{10.1063/1.4823831}.
+
+\bibitem[Sillero et~al.(2014)Sillero, Jim\'enez, and Moser]{SilleroEtAl2014}
+Juan~A. Sillero, Javier Jim\'enez, and Robert~D. Moser.
+\newblock Two-point statistics for turbulent boundary layers and channels at
+  {Reynolds} numbers up to $\delta^+\approx 2000$.
+\newblock \emph{Physics of Fluids}, 26\penalty0 (10):\penalty0 105109, 2014.
+\newblock \doi{10.1063/1.4899259}.
+
+\bibitem[Townsend(1976)]{Townsend1976}
+A.~A. Townsend.
+\newblock \emph{The Structure of Turbulent Shear Flow}.
+\newblock Cambridge University Press, Cambridge, 2 edition, 1976.
+
+\end{thebibliography}
