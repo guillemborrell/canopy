@@ -14,10 +14,8 @@ These images are cropped from the author-hosted article PDFs linked in the paper
 | `merger-split-timing.png` | 20 | Lozano-Durán & Jiménez (2014), JFM 759, doi:10.1017/jfm.2014.575 |
 | `vorticity-interface-thresholds.png` | 2 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
 | `interface-distance-definitions.png` | 12 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
-| `irrotational-pocket-scaling.png` | 18 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
 | `outer-strain-vorticity-support.png` | 20 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
 | `interface-core-straining-continuity.png` | 23 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
-| `interface-thickness-scaling.png` | 24 | Borrell & Jiménez (2016), JFM 801, doi:10.1017/jfm.2016.430 |
 | `channel-centreline-coupling.png` | 5 | Jiménez et al. (2010), JFM 657, doi:10.1017/S0022112010001370 |
 | `boundary-layer-channel-correlation-lengths.png` | 10 | Sillero et al. (2014), Physics of Fluids 26, doi:10.1063/1.4899259 |
 
