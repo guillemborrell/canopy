@@ -105,7 +105,15 @@ Three-dimensional DNS changes the question from “what pattern crosses a plane?
 
 The population is scale-dependent. In figure 9(a) of [3], the number density per unit wall area and unit height has a power-law tail. Figure 10 shows that its exponent approaches \(-3\) as the vortex threshold approaches the percolation transition. This is the population law expected for Townsend-like geometrical self-similarity. The individual structures are not simple arches: figure 6(b) and the conclusions of [3] describe the larger clusters as internally complicated objects whose conditional average can nevertheless resemble a vortex loop.
 
+![Representative detached and tall attached three-dimensional vortex clusters](assets/figures/vortex-clusters-attached-detached.png)
+
+*Figure 1. A detached cluster (left) and a tall attached cluster (right). The attached object is not a single idealised arch. Extracted from del Álamo et al. [3], source figure 6.*
+
 Lozano-Durán *et al.* [5] performed the corresponding analysis for intense momentum-transfer objects. Their figure 2 separates attached from detached Q objects. At the selected threshold, the attached Q2/Q4 objects occupy less than 8% of a wall-parallel plane but contribute approximately 60% of the mean Reynolds shear stress at all heights. This is a more precise and defensible statement than saying that the structures occupy the entire flow or carry more than 80% of the stress.
+
+![Attached and detached quadrant-object contributions to Reynolds stress](assets/figures/q-events-attached-stress.png)
+
+*Figure 2. The left panel separates attached and detached Q objects geometrically; the right panel shows their fractional Reynolds-stress contributions. Extracted from Lozano-Durán et al. [5], source figure 2.*
 
 Figure 5 of [5] gives
 
@@ -113,7 +121,17 @@ Figure 5 of [5] gives
 \Delta_x\simeq 3\Delta_y, \qquad \Delta_z\simeq \Delta_y
 \]
 
-for the self-similar attached Q family. The close agreement with the vortex-cluster dimensions is significant, but it does not imply identity. Figure 10(a) shows that more than 80% of attached vortex clusters intersect a Q object, while the reverse probability decreases with height because tall Q objects outnumber tall vortex clusters. Figure 11 and the conditional field in figure 12 support a predominant side-by-side Q2–Q4 pair, with a vortex cluster preferentially associated with the Q2 and the shear layer beneath the Q4.
+for the self-similar attached Q family.
+
+![Joint distributions of attached Q-object dimensions](assets/figures/q-event-self-similar-sizes.png)
+
+*Figure 3. Joint size distributions for attached Q2 and Q4 objects. The diagonal trends in panels (a) and (b) provide the evidence for dimensions proportional to object height; panel (d) shows the departure of the largest outer objects from the simpler family. Extracted from Lozano-Durán et al. [5], source figure 5.*
+
+The close agreement with the vortex-cluster dimensions is significant, but it does not imply identity. Figure 10(a) shows that more than 80% of attached vortex clusters intersect a Q object, while the reverse probability decreases with height because tall Q objects outnumber tall vortex clusters. Figure 11 and the conditional field in figure 12 support a predominant side-by-side Q2–Q4 pair, with a vortex cluster preferentially associated with the Q2 and the shear layer beneath the Q4.
+
+![Conditional and instantaneous Q2-Q4 pair structures](assets/figures/q2-q4-conditional-pair.png)
+
+*Figure 4. Conditional geometry, one instantaneous realisation, and the associated velocity field of a Q2–Q4 pair. Green denotes Q2, blue Q4, and grey the vortex cluster in the upper panels. Extracted from Lozano-Durán et al. [5], source figure 12.*
 
 These figures justify three ingredients of the canopy model:
 
@@ -127,6 +145,10 @@ They do not justify treating all velocity, stress, and vorticity thresholds as i
 
 Self-similarity breaks down for the largest channel structures. Figure 8(d) of [5] shows a very-large Q2 that crosses the channel centreline and is visibly assembled from smaller pieces. Figure 6 shows that objects crossing the centreline account for roughly one third of the stress carried by attached Q objects; fewer than 1% of the objects account for about 60% of their volume. Their streamwise lengths can approach \(20\delta\), well beyond the aspect ratio of the self-similar family.
 
+![Attached cluster, attached Q2, and a composite centreline-crossing Q2 object](assets/figures/q-event-composite-objects.png)
+
+*Figure 5. An attached vortex cluster (b), an attached Q2 (c), and a very-large centreline-crossing Q2 (d). The last object is visibly composite. Extracted from Lozano-Durán et al. [5], source figure 8.*
+
 This distinction prevents two misleading conclusions. First, the height of a percolated object is not necessarily the size of one dynamical eddy. Second, a long low-speed correlation or spectral mode need not be one continuous vortex packet. Thresholded objects can concatenate, and correlations combine repeated or aligned substructures.
 
 The spectral evidence is consistent with this multilevel picture. Figure 3 of del Álamo *et al.* [2] shows that the two-dimensional streamwise-velocity spectrum is not described by one geometrical scaling: its width varies roughly as the square root of its length, and the largest “global” modes use an outer velocity scale. Thus even below the TNTI, a structural model has to distinguish active momentum-transfer motions from longer, partly inactive streamwise-velocity organisation.
@@ -139,9 +161,21 @@ The time-resolved tracking of Lozano-Durán & Jiménez [7] is crucial for interp
 T u_\tau/\Delta_y=O(1).
 \]
 
+![Lifetime scaling of detached and tall attached coherent structures](assets/figures/attached-object-lifetimes.png)
+
+*Figure 6. Detached-object lifetimes follow a local dissipative time, whereas panels (b) and (c) show the collapse of tall attached-object lifetimes with the local turnover time. Extracted from Lozano-Durán & Jiménez [7], source figure 9.*
+
 Detached objects instead have Kolmogorov-scale sizes and lifetimes. Figure 11 reveals an approximate sweep–ejection symmetry: ejections tend to appear near the wall and move away from it, while sweeps tend to appear aloft and move toward it. Vortex clusters broadly follow the ejections. Therefore “attached” does not imply that every large structure originates as a small wall object and is then convected intact to the edge. Indeed, [3] had already noted from its figure 14 that the inferred vertical growth speed required for all tall clusters to originate at the wall would be unrealistically large.
 
+![Birth, death, and vertical evolution of Q2, Q4, and vortex-cluster branches](assets/figures/sweep-ejection-birth-death.png)
+
+*Figure 7. Birth/death positions and vertical histories of ejections, sweeps, and vortex clusters. The contrast between the Q2 panels (a,c) and Q4 panels (b,d) is the evidence against a universal bottom-up trajectory. Extracted from Lozano-Durán & Jiménez [7], source figure 11.*
+
 Figures 18–20 of [7] quantify merging and splitting. Structures below about \(30\eta\) rarely participate; almost all structures above about \(100\eta\) do. Figure 19 shows many viscous-size fragments but also interactions between comparable sizes. Figure 20 shows that mergers occur preferentially early in a branch lifetime and splits late in it. The direct direction dominates, but inverse events are not negligible.
+
+![Scale and lifetime timing of mergers and splits](assets/figures/merger-split-timing.png)
+
+*Figure 8. Similar-size interaction time grows with fragment size (a); mergers, shown dashed in (b), occur preferentially early, while splits, shown solid, occur late. Extracted from Lozano-Durán & Jiménez [7], source figure 20.*
 
 These data support a **renewing canopy**, not a set of material branches. They also require care with the word *cascade*. The tracked quantities are the volume of intense momentum-transfer or vorticity objects, not spectral kinetic-energy flux. Lozano-Durán & Jiménez explicitly caution that their geometrical cascade need not be the Kolmogorov energy cascade.
 
@@ -155,21 +189,39 @@ A velocity fluctuation can exist in irrotational fluid. Pressure and potential v
 
 This distinction is visible in Borrell & Jiménez [9]. Their figure 20 compares wall-normal distributions of strain and vorticity. Strain persists into the free stream and follows the exponential decay expected for irrotational Fourier modes, whereas vorticity separates the rotational and potential regions. Figure 21 shows that strain-isosurfaces do not exhibit the same topological transition as vorticity-isosurfaces. Most decisively, figure 22 shows sharp changes of both vorticity and strain when distance is measured from a vorticity interface, but no corresponding sharp transition when distance is measured from a strain interface. The authors therefore conclude that the vorticity interface is a physical feature, while the strain threshold is not.
 
-This does not make the TNTI unique. Figure 2 of [9] shows the same DNS region at thresholds differing by one decade. At low threshold the interface is a relatively smooth outer envelope; at the higher threshold it develops many handles and deep convolutions. Figures 3 and 4 show that changing \(\omega_0^*\) changes both the mean height and the width of the interface-height distribution. Figures 7 and the related genus results identify a topological transition over approximately \(\omega_0^*=0.1\)–2. Any canopy statement must therefore specify its threshold.
+This does not make the TNTI unique. Figure 2 of [9] shows the same DNS region at thresholds differing by one decade. At low threshold the interface is a relatively smooth outer envelope; at the higher threshold it develops many handles and deep convolutions.
+
+![The same vorticity field rendered at two interface thresholds](assets/figures/vorticity-interface-thresholds.png)
+
+*Figure 9. The same boundary-layer region at thresholds differing by one decade. The low-threshold surface (a) behaves like an outer envelope; the higher-threshold surface (b) penetrates the turbulent field and is much more multiply connected. Extracted from Borrell & Jiménez [9], source figure 2.*
+
+Figures 3 and 4 show that changing \(\omega_0^*\) changes both the mean height and the width of the interface-height distribution. Figures 7 and the related genus results identify a topological transition over approximately \(\omega_0^*=0.1\)–2. Any canopy statement must therefore specify its threshold.
 
 ### 4.2 Geometry: envelope, folds, and pockets
 
 A vertical distance to the uppermost interface crossing is convenient experimentally, but it hides overhangs and interior pockets. Borrell & Jiménez introduced a three-dimensional “ball distance” to the nearest relevant interface point. Figure 13 of [9] shows that the ball-distance interface follows the vorticity isosurface as a higher threshold penetrates the turbulent core, whereas the vertical envelope remains near \(\delta_{99}\). Figure 17 then shows that an apparent conditional-vorticity peak produced with vertical distance disappears with ball distance.
 
+![Comparison of ball and vertical distance fields around the TNTI](assets/figures/interface-distance-definitions.png)
+
+*Figure 10. Cross-sections of ball distance (a,b) and vertical distance (c,d) at low and high thresholds. Ball distance follows folds and pockets; vertical distance constructs an upper envelope and hides much of that geometry. Extracted from Borrell & Jiménez [9], source figure 12.*
+
 The distinction is directly relevant to the canopy analogy. A canopy viewed from above is an envelope; the fluid interface is a multiply connected surface. A valid structural model has to account for both the external envelope and irrotational pockets beneath it.
 
 Figure 18(a) of [9] shows that pocket depth scales with \(\delta_{99}\), while pocket size scales better with the Taylor microscale \(\lambda\). Deeper pockets are smaller, consistent with progressive breakup during engulfment. Figure 18(b) shows a vorticity-diffusion layer about \(5\)–\(10\eta\) thick around those pockets. Its thickness depends on distance to the nearest interface but not appreciably on how deep the pocket lies. Large-scale engulfment and small-scale nibbling are therefore complementary: turbulence folds and fragments the interface, while viscosity supplies vorticity locally across it.
+
+![Joint scaling of depth and nearest-interface distance within irrotational pockets](assets/figures/irrotational-pocket-scaling.png)
+
+*Figure 11. Irrotational-pocket statistics at two Reynolds numbers. Panel (a) compares pocket depth with nearest-interface distance; panel (b) shows that conditional vorticity follows nearest-interface distance more directly than depth. Extracted from Borrell & Jiménez [9], source figure 18.*
 
 ### 4.3 The TNTI is not merely a passive, purely dissipative cap
 
 The original canopy argument treated the interface as the point where cluster tips lose mean-shear production and decay purely by viscosity. The conditional data require a more nuanced description.
 
 Figure 23 of [9] shows that vorticity falls sharply across the interface but strain remains significant. When vortex stretching/compression and strain eigenvalues are normalised by the local strain magnitude, their probability distributions at \(7\eta\) and \(100\eta\) from the interface are similar. Figure 24 shows that several definitions of the non-equilibrium interface thickness scale with \(\lambda\), not with \(\eta\) or \(\delta_{99}\), over the available Reynolds-number range.
+
+![Taylor-microscale collapse and interface-thickness scaling](assets/figures/interface-thickness-scaling.png)
+
+*Figure 12. Conditional vorticity-to-strain profiles collapse when distance is normalised by \(\lambda\) (a); panel (c) compares the measured growth with the Kolmogorov, Taylor, and outer scales. Extracted from Borrell & Jiménez [9], source figure 24.*
 
 The resulting nested picture is:
 
@@ -210,6 +262,10 @@ There is no baroclinic source in this equation. The wall supplies vorticity to a
 
 A channel is not simply a boundary layer with a reflecting outer boundary. Jiménez *et al.* [4] show two distinct effects. First, their figure 5(b,c) demonstrates that large-scale velocity correlations cross the channel centreline; ejections from one half can penetrate into the other. Second, figures 3 and 4 show that the TBL replaces this interaction with an intermittent mixture of vortical and potential fluid and associated pressure fluctuations. Figure 6 links those pressure effects to different outer energy production, and figure 8 locates the largest spectral-intensity differences around \(y/\delta\simeq0.2\)–0.5.
 
+![Quadrant contributions and channel correlations that cross the centreline](assets/figures/channel-centreline-coupling.png)
+
+*Figure 13. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
+
 Higher-Reynolds-number one-point statistics confirm the difference. Figure 6 of Sillero, Jiménez & Moser [6] shows that all three velocity-component intensities exceed their channel values in the TBL, with the largest difference near \(y/\delta\simeq0.35\)–0.5 and little change in that location between the two Reynolds numbers compared. This is consistent with an edge-mediated pressure and entrainment effect, not with the outer TBL being dynamically empty.
 
 The three-dimensional correlations in Sillero *et al.* [8] provide the strongest correction to the earlier “channel traffic jam” interpretation:
@@ -219,6 +275,10 @@ The three-dimensional correlations in Sillero *et al.* [8] provide the strongest
 * Figure 10 places the channel maximum near \(y/\delta\simeq0.5\); the authors suggest that intermittency prevents the corresponding global structure from forming in the TBL.
 * Figure 12 shows that the \(u\)-\(v\) cross-correlation has an extent intermediate between the long streamwise-velocity and short wall-normal-velocity correlations. The source paper warns that this correlation is not itself the geometry of instantaneous momentum transfer.
 * Figure 18 shows that channel ejections are much longer than sweeps in the outer region, while their lengths are closer in the boundary layer.
+
+![Integral correlation lengths in channels and boundary layers](assets/figures/boundary-layer-channel-correlation-lengths.png)
+
+*Figure 14. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
 
 Thus there is evidence for centreline crossing and coupling, but not for the claim that opposing hierarchies collide and destroy self-similar scaling. Nor do the cited figures show pressure–strain being artificially reoriented by a collision. If anything, the longest global streamwise modes are more developed in channels. The defensible comparison is:
 
