@@ -187,13 +187,19 @@ These data support a **renewing canopy**, not a set of material branches. They a
 
 A velocity fluctuation can exist in irrotational fluid. Pressure and potential velocity induced by turbulence below the edge extend outside the vortical region, so a velocity- or energy-based threshold need not identify rotational turbulence.
 
-This distinction is visible in Borrell & Jiménez [9]. Their figure 20 compares wall-normal distributions of strain and vorticity. Strain persists into the free stream and follows the exponential decay expected for irrotational Fourier modes, whereas vorticity separates the rotational and potential regions. Figure 21 shows that strain-isosurfaces do not exhibit the same topological transition as vorticity-isosurfaces. Most decisively, figure 22 shows sharp changes of both vorticity and strain when distance is measured from a vorticity interface, but no corresponding sharp transition when distance is measured from a strain interface. The authors therefore conclude that the vorticity interface is a physical feature, while the strain threshold is not.
+This distinction is visible in Borrell & Jiménez [9]. Their figure 20 compares wall-normal distributions of strain and vorticity. Strain persists into the free stream and follows the exponential decay expected for irrotational Fourier modes, whereas vorticity separates the rotational and potential regions. This figure is also an important bridge to the canopy interpretation: the rotational support terminates near the TNTI, but the velocity-gradient footprint of the largest internal motions continues into the potential region. The dashed diagonal identifies the potential-flow decay associated with wall-parallel wavelengths of order \(2\delta_{99}\), so the exterior strain is not evidence of a second vortical population. It can be read as the irrotational “shadow” of the turbulent canopy.
+
+![Wall-normal support of vorticity and strain across the boundary-layer edge](assets/figures/outer-strain-vorticity-support.png)
+
+*Figure 9. Joint wall-normal distributions of vorticity (blue dashed contours) and strain (black solid contours). Vorticity terminates rapidly, while strain continues into the free stream along the potential-flow decay marked in red. Extracted from Borrell & Jiménez [9], source figure 20.*
+
+Figure 21 shows that strain-isosurfaces do not exhibit the same topological transition as vorticity-isosurfaces. Most decisively, figure 22 shows sharp changes of both vorticity and strain when distance is measured from a vorticity interface, but no corresponding sharp transition when distance is measured from a strain interface. The authors therefore conclude that the vorticity interface is a physical feature, while the strain threshold is not.
 
 This does not make the TNTI unique. Figure 2 of [9] shows the same DNS region at thresholds differing by one decade. At low threshold the interface is a relatively smooth outer envelope; at the higher threshold it develops many handles and deep convolutions.
 
 ![The same vorticity field rendered at two interface thresholds](assets/figures/vorticity-interface-thresholds.png)
 
-*Figure 9. The same boundary-layer region at thresholds differing by one decade. The low-threshold surface (a) behaves like an outer envelope; the higher-threshold surface (b) penetrates the turbulent field and is much more multiply connected. Extracted from Borrell & Jiménez [9], source figure 2.*
+*Figure 10. The same boundary-layer region at thresholds differing by one decade. The low-threshold surface (a) behaves like an outer envelope; the higher-threshold surface (b) penetrates the turbulent field and is much more multiply connected. Extracted from Borrell & Jiménez [9], source figure 2.*
 
 Figures 3 and 4 show that changing \(\omega_0^*\) changes both the mean height and the width of the interface-height distribution. Figures 7 and the related genus results identify a topological transition over approximately \(\omega_0^*=0.1\)–2. Any canopy statement must therefore specify its threshold.
 
@@ -203,7 +209,7 @@ A vertical distance to the uppermost interface crossing is convenient experiment
 
 ![Comparison of ball and vertical distance fields around the TNTI](assets/figures/interface-distance-definitions.png)
 
-*Figure 10. Cross-sections of ball distance (a,b) and vertical distance (c,d) at low and high thresholds. Ball distance follows folds and pockets; vertical distance constructs an upper envelope and hides much of that geometry. Extracted from Borrell & Jiménez [9], source figure 12.*
+*Figure 11. Cross-sections of ball distance (a,b) and vertical distance (c,d) at low and high thresholds. Ball distance follows folds and pockets; vertical distance constructs an upper envelope and hides much of that geometry. Extracted from Borrell & Jiménez [9], source figure 12.*
 
 The distinction is directly relevant to the canopy analogy. A canopy viewed from above is an envelope; the fluid interface is a multiply connected surface. A valid structural model has to account for both the external envelope and irrotational pockets beneath it.
 
@@ -211,17 +217,25 @@ Figure 18(a) of [9] shows that pocket depth scales with \(\delta_{99}\), while p
 
 ![Joint scaling of depth and nearest-interface distance within irrotational pockets](assets/figures/irrotational-pocket-scaling.png)
 
-*Figure 11. Irrotational-pocket statistics at two Reynolds numbers. Panel (a) compares pocket depth with nearest-interface distance; panel (b) shows that conditional vorticity follows nearest-interface distance more directly than depth. Extracted from Borrell & Jiménez [9], source figure 18.*
+*Figure 12. Irrotational-pocket statistics at two Reynolds numbers. Panel (a) compares pocket depth with nearest-interface distance; panel (b) shows that conditional vorticity follows nearest-interface distance more directly than depth. Extracted from Borrell & Jiménez [9], source figure 18.*
 
 ### 4.3 The TNTI is not merely a passive, purely dissipative cap
 
 The original canopy argument treated the interface as the point where cluster tips lose mean-shear production and decay purely by viscosity. The conditional data require a more nuanced description.
 
-Figure 23 of [9] shows that vorticity falls sharply across the interface but strain remains significant. When vortex stretching/compression and strain eigenvalues are normalised by the local strain magnitude, their probability distributions at \(7\eta\) and \(100\eta\) from the interface are similar. Figure 24 shows that several definitions of the non-equilibrium interface thickness scale with \(\lambda\), not with \(\eta\) or \(\delta_{99}\), over the available Reynolds-number range.
+Figure 23 of [9] provides the clearest evidence for dynamical continuity between the turbulent core and the interface. Panel (a) follows the joint vorticity and strain distributions towards the TNTI; panel (b) follows stretching and compression. In panels (c,d), vortex stretching/compression and the strain eigenvalues are normalised by the local strain magnitude. Their distributions at \(7\eta\) and \(100\eta\) from the interface are similar. The vorticity amplitude is therefore being extinguished across the edge without a corresponding replacement of the local straining geometry by a qualitatively different mechanism.
+
+![Conditional vorticity, strain, stretching, and strain-eigenvalue statistics from the core to the TNTI](assets/figures/interface-core-straining-continuity.png)
+
+*Figure 13. Conditional gradient statistics at the vorticity interface. Blue dashed curves are sampled at \(7\eta\) and black solid curves at \(100\eta\). The near collapse after local-strain normalisation in panels (c,d) is direct evidence that the interface retains the straining organisation of the core. Extracted from Borrell & Jiménez [9], source figure 23.*
+
+This is stronger support for the canopy connection than geometry alone: it shows that the edge inherits the internal turbulent straining environment. It still stops short of identifying which connected Q object or vortex cluster supplies a particular interface patch, because no cluster labels were used in this conditional average.
+
+Figure 24 shows that several definitions of the non-equilibrium interface thickness scale with \(\lambda\), not with \(\eta\) or \(\delta_{99}\), over the available Reynolds-number range.
 
 ![Taylor-microscale collapse and interface-thickness scaling](assets/figures/interface-thickness-scaling.png)
 
-*Figure 12. Conditional vorticity-to-strain profiles collapse when distance is normalised by \(\lambda\) (a); panel (c) compares the measured growth with the Kolmogorov, Taylor, and outer scales. Extracted from Borrell & Jiménez [9], source figure 24.*
+*Figure 14. Conditional vorticity-to-strain profiles collapse when distance is normalised by \(\lambda\) (a); panel (c) compares the measured growth with the Kolmogorov, Taylor, and outer scales. Extracted from Borrell & Jiménez [9], source figure 24.*
 
 The resulting nested picture is:
 
@@ -240,7 +254,8 @@ The structural and interface datasets fit together at the level of scaling and g
 * attached families supply objects over a broad range of heights [3,5];
 * their number decreases with size, while their dimensions increase with size [3,5];
 * the largest attached motions influence the full layer and the wall [5,8];
-* the boundary-layer edge is a convoluted vorticity surface with outer-scale excursions, Taylor-scale internal thickness, and viscous sublayers [9].
+* the boundary-layer edge is a convoluted vorticity surface with outer-scale excursions, Taylor-scale internal thickness, and viscous sublayers [9];
+* the outer strain is the potential-flow continuation of large internal motions, while locally normalised stretching and strain geometry remain similar from the core to the interface [9, figures 20 and 23].
 
 This motivates interpreting the intermittent region as the sparse upper support of a hierarchy rather than as a separate sheet placed on top of an otherwise complete outer flow. It also explains why a planar cut may suggest isolated bulges or packets even when the three-dimensional field is strongly connected.
 
@@ -264,7 +279,7 @@ A channel is not simply a boundary layer with a reflecting outer boundary. Jimé
 
 ![Quadrant contributions and channel correlations that cross the centreline](assets/figures/channel-centreline-coupling.png)
 
-*Figure 13. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
+*Figure 15. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
 
 Higher-Reynolds-number one-point statistics confirm the difference. Figure 6 of Sillero, Jiménez & Moser [6] shows that all three velocity-component intensities exceed their channel values in the TBL, with the largest difference near \(y/\delta\simeq0.35\)–0.5 and little change in that location between the two Reynolds numbers compared. This is consistent with an edge-mediated pressure and entrainment effect, not with the outer TBL being dynamically empty.
 
@@ -278,7 +293,7 @@ The three-dimensional correlations in Sillero *et al.* [8] provide the strongest
 
 ![Integral correlation lengths in channels and boundary layers](assets/figures/boundary-layer-channel-correlation-lengths.png)
 
-*Figure 14. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
+*Figure 16. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
 
 Thus there is evidence for centreline crossing and coupling, but not for the claim that opposing hierarchies collide and destroy self-similar scaling. Nor do the cited figures show pressure–strain being artificially reoriented by a collision. If anything, the longest global streamwise modes are more developed in channels. The defensible comparison is:
 
