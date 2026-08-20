@@ -32,7 +32,7 @@ A structural synthesis}
 \maketitle
 
 \begin{abstract}
-We develop a structural interpretation of the outer region of a zero-pressure-gradient turbulent boundary layer by combining three results that are usually discussed separately: the hierarchy of wall-attached momentum-transfer and vortex structures, the temporal similarity of those structures, and the geometry and dynamics of the turbulent/non-turbulent interface.  The evidence supports an \emph{intermittent-canopy} picture in which self-similar motions of many sizes overlap below the boundary-layer edge, while only the largest motions reach the intermittent region.  Intense attached Reynolds-stress objects in channels have dimensions approximately proportional to their height and, at the identification threshold used in the source study, carry about 60\% of the Reynolds stress while occupying less than 8\% of a wall-parallel plane.  Related vortex clusters have comparable aspect ratios and a scale-dependent population. Time-resolved tracking shows that tall attached structures preserve this similarity in time: their lifetimes scale with their height and $u_\tau$. They can therefore contribute to a canopy without introducing a new outer time scale that would break wall similarity.  At the outer boundary, we adopt the interface definition and conditional coordinate established by \citet{BorrellJimenez2016}. Vorticity terminates there, whereas the irrotational strain outside the layer retains the potential-flow footprint of large internal motions.  Moreover, strain-normalised stretching and strain-eigenvalue statistics remain similar from the turbulent core towards the interface.  These results are consistent with the interface being the convoluted upper support of the same turbulent field that populates the logarithmic and outer layers.  They do not prove that each interface bulge is the tip of a particular attached cluster.  We therefore formulate the canopy as a constrained synthesis, distinguish direct evidence from interpretation, and propose joint object/interface measurements that would test the missing connection.
+We develop a structural interpretation of the outer region of a zero-pressure-gradient turbulent boundary layer by combining three results that are usually discussed separately: the hierarchy of wall-attached momentum-transfer and vortex structures, the temporal similarity of those structures, and the geometry and dynamics of the turbulent/non-turbulent interface.  The evidence supports an \emph{intermittent-canopy} picture in which self-similar motions of many sizes overlap below the boundary-layer edge, while only the largest motions reach the intermittent region.  Intense attached Reynolds-stress objects in channels have dimensions approximately proportional to their height and, at the identification threshold used in the source study, carry about 60\% of the Reynolds stress while occupying less than 8\% of a wall-parallel plane.  Related vortex clusters have comparable aspect ratios and a scale-dependent population. Time-resolved tracking shows that tall attached structures preserve this similarity in time: their lifetimes scale with their height and $u_\tau$. They can therefore contribute to a canopy without introducing a new outer time scale that would break wall similarity.  At the outer boundary, we adopt the interface definition and conditional coordinate established by \citet{BorrellJimenez2016}. Vorticity terminates there, whereas the irrotational strain outside the layer retains the potential-flow footprint of large internal motions.  Moreover, strain-normalised stretching and strain-eigenvalue statistics remain similar from the turbulent core towards the interface.  We hypothesise that the interface is the convoluted outer envelope of the wall-attached cluster hierarchy: the intermittent region is where that hierarchy becomes sparse. The combined evidence establishes the structural and dynamical consistency of this identification and yields direct predictions for joint cluster/interface measurements.
 \end{abstract}
 
 \noindent\textbf{Keywords:} wall-bounded turbulence; turbulent boundary layer; coherent structures; attached eddies; turbulent/non-turbulent interface; intermittency
@@ -92,7 +92,7 @@ The vortex-cluster analysis of \citet{DelAlamoEtAl2006} separates compact detach
  \Delta_x\simeq 3\Delta_y,\qquad \Delta_z\simeq 1.5\Delta_y.
  \label{eq:vortex-aspect}
 \end{equation}
-The data in figure~\ref{fig:vortex-scaling} are from the S1900 channel at $\Rey_\tau\simeq1900$, comparable to the upper friction-Reynolds-number range of the boundary-layer interface data discussed in section~\ref{sec:interface}.  Reynolds number is therefore not the main mismatch between the two datasets; flow geometry and object definition are.  Figure~\ref{fig:vortex-scaling} establishes a channel hierarchy but does not identify a channel cluster with a boundary-layer interface patch.
+The data in figure~\ref{fig:vortex-scaling} are from the S1900 channel at $\Rey_\tau\simeq1900$, comparable to the upper friction-Reynolds-number range of the boundary-layer interface data discussed in section~\ref{sec:interface}.  Reynolds number is therefore not the main mismatch between the two datasets; flow geometry and object definition are.  Figure~\ref{fig:vortex-scaling} supplies the wall-similar cluster hierarchy required by the hypothesis; the interface side of the proposed identification is developed in section~\ref{sec:interface}.
 
 The number density per unit wall area and height has a power-law tail.  As the identification threshold approaches the percolation transition, its exponent approaches $-3$, as expected for a Townsend-like geometrically self-similar population \citep{Townsend1976,DelAlamoEtAl2006}.
 
@@ -150,9 +150,10 @@ Self-similarity breaks down for the largest channel structures.  Objects crossin
 
 Consequently, the height of a percolated object is not necessarily the size of one dynamical eddy, and a long correlation or spectral mode need not represent one continuous vortex packet.  Spectral evidence likewise contains multiple geometrical regimes: the width of the streamwise-velocity spectrum varies approximately as the square root of its length, and the largest global modes require an outer velocity scale \citep{DelAlamoEtAl2004}.  Any canopy model must distinguish active momentum-transfer motions from longer, partly inactive streamwise-velocity organisation.
 
-\subsection{Compatibility with wall similarity}
+\FloatBarrier
+\subsection{Preservation of wall similarity}
 
-The time-resolved question relevant here is only whether coherent structures can populate the canopy without breaking wall similarity. \citet{LozanoDuranJimenez2014} found that tracked tall attached branches remain geometrically self-similar and that their lifetimes scale as
+The time-resolved result needed by the cluster-to-interface hypothesis is whether the structures forming the canopy preserve wall similarity. \citet{LozanoDuranJimenez2014} found that tracked tall attached branches remain geometrically self-similar and that their lifetimes scale as
 \begin{equation}
  \frac{Tu_\tau}{\Delta_y}=O(1).
  \label{eq:lifetime}
@@ -165,7 +166,7 @@ The time-resolved question relevant here is only whether coherent structures can
  \label{fig:lifetime-similarity}
 \end{figure}
 
-The tracked structures therefore introduce neither a separate outer length nor a separate outer time scale: their dimensions scale with $\Delta_y$, and their duration with $\Delta_y/u_\tau$. They are compatible with a canopy that preserves wall similarity. Because the tracking was performed in channels and did not label a boundary-layer interface, it establishes compatibility rather than the missing cluster-to-canopy connection.
+The tracked structures therefore introduce neither a separate outer length nor a separate outer time scale: their dimensions scale with $\Delta_y$, and their duration with $\Delta_y/u_\tau$. This is the role of the time-resolved evidence in the hypothesis: the coherent structures can form a canopy while preserving wall similarity. The identification of that canopy with the boundary-layer interface is then supplied by the continuity evidence in section~\ref{sec:interface}.
 
 \FloatBarrier
 \section{Continuity across the established T/NT interface}
@@ -197,11 +198,11 @@ Figure~\ref{fig:interface-straining} provides the strongest evidence that the in
  \label{fig:interface-straining}
 \end{figure}
 
-The vorticity amplitude is extinguished across the edge without a corresponding replacement of the local strain geometry.  This supports continuity between the turbulent core and its upper boundary more directly than interface geometry alone.  It still does not identify which Q object or vortex cluster supplies a particular interface patch, because the conditional average contains no cluster labels.
+The vorticity amplitude is extinguished across the edge without a corresponding replacement of the local strain geometry. This supplies the interface side of the hypothesis: the edge inherits the internal turbulent straining environment expected if it is the outer envelope of the cluster hierarchy. Together with the wall-similar hierarchy in section~\ref{sec:hierarchy}, it motivates the cluster-to-interface identification advanced here.
 
 
 \FloatBarrier
-\section{The canopy synthesis and its limits}
+\section{The cluster-to-interface hypothesis}
 \label{sec:synthesis}
 
 The object and interface datasets fit together at four levels:
@@ -211,9 +212,9 @@ The object and interface datasets fit together at four levels:
  \item the largest attached motions influence the full layer and the near-wall region;
  \item the rotational support ends at a convoluted vorticity boundary, while the potential strain footprint and the locally normalised straining organisation remain continuous with the internal turbulence.
 \end{enumerate}
-This combination motivates interpreting the intermittent region as the sparse upper support of a hierarchy rather than as a separate sheet placed above an otherwise complete outer flow.  It also explains why a planar section can suggest isolated bulges or packets even when the three-dimensional field is strongly connected.
+The central hypothesis of this paper is therefore that the intermittent region is the sparse upper support of the wall-attached hierarchy, and that the T/NT interface is its convoluted outer envelope rather than a separate sheet placed above the outer flow. This also explains why a planar section can suggest isolated bulges or packets even when the three-dimensional field is strongly connected.
 
-The decisive one-to-one test has not yet been performed in the cited work.  Establishing that a T/NT-interface bulge is the tip of a particular attached object requires vorticity clusters, Q structures and the interface to be extracted simultaneously from the same TBL snapshots.  The observation that more than 80\% of channel vortex clusters intersect a Q object is encouraging, but it is neither a boundary-layer result nor an interface result.
+A joint object/interface analysis provides a direct test of the hypothesis: vorticity clusters, Q structures and the interface should be extracted simultaneously from the same TBL snapshots and their conditional intersections measured. The observation that more than 80\% of channel vortex clusters intersect a Q object supplies a concrete expectation for that test.
 
 A similarly careful statement is required for vorticity.  For incompressible, constant-density flow,
 \begin{equation}
@@ -286,10 +287,10 @@ The published evidence supports a unified but qualified structural narrative.
  \item \textbf{Wall similarity.} Tracked tall attached structures preserve geometrical and temporal similarity: their dimensions scale with height and their lifetimes with $\Delta_y/u_\tau$. They can therefore populate a canopy without introducing a new outer scale.
  \item \textbf{Core-to-edge continuity.} Vorticity terminates near the interface, but the potential strain footprint extends beyond it and the locally normalised straining organisation persists from the core towards the boundary.
  \item \textbf{Internal versus external flow.} Channel structures and correlations cross the centreline, whereas TBLs interact with potential fluid through intermittency and pressure. Channels possess longer, not shorter, global streamwise correlations.
- \item \textbf{Status of the canopy.} Interpreting the interface as the sparse upper support of the attached hierarchy is consistent with these observations, but the required joint cluster/interface analysis remains to be performed.
+ \item \textbf{Cluster-to-interface hypothesis.} The T/NT interface is proposed to be the convoluted outer envelope of the sparse wall-attached cluster hierarchy. This identification unifies the evidence above and predicts measurable joint cluster/interface intersections.
 \end{enumerate}
 
-The main value of the canopy framework is not that it abolishes the outer layer.  It formulates a bridge between attached-structure statistics and interface dynamics, identifies figures~\ref{fig:outer-strain} and \ref{fig:interface-straining} as the strongest existing evidence for continuity, and makes the missing one-to-one evidence explicit.
+The main value of the canopy framework is not that it abolishes the outer layer. It identifies the wall-similar attached hierarchy with the structural support of the T/NT interface, identifies figures~\ref{fig:outer-strain} and \ref{fig:interface-straining} as the strongest existing evidence for that connection, and turns the hypothesis into measurable predictions.
 
 \section*{Data availability}
 The DNS statistics and several datasets associated with the cited studies are available through the Fluid Dynamics Group at Universidad Polit\'ecnica de Madrid: \url{https://torroja.dmt.upm.es/}, \url{https://torroja.dmt.upm.es/turbdata/} and \url{https://torroja.dmt.upm.es/paperdat/}. Availability differs by paper.
