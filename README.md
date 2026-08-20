@@ -99,17 +99,17 @@ The principal visual and quantitative evidence used in the synthesis is summaris
 
 The PIV measurements of Adrian, Meinhart & Tomkins [1] established that the outer TBL contains repeated combinations of spanwise vorticity and strong Q2 motion. Their Reynolds-number range, \(930<Re_\theta<6845\), and the 30–60° locus of the Q2 signatures supported the hairpin-packet interpretation. Because the measurements were streamwise–wall-normal planes, however, they could not determine the connectivity of the structures in the omitted spanwise direction.
 
-Three-dimensional DNS changes the question from “what pattern crosses a plane?” to “which points belong to one connected object?” Del Álamo *et al.* [3] identified vortex clusters in channels. Their figure 6 contrasts compact detached clusters with much taller and more complicated attached clusters. Figures 7 and 8 show that the bounding dimensions of the tall attached family scale with cluster height. The resulting mean dimensions are approximately
+Three-dimensional DNS changes the question from “what pattern crosses a plane?” to “which points belong to one connected object?” Del Álamo *et al.* [3] identified vortex clusters in channels. Their figures 7 and 8 show that the bounding dimensions of the tall attached family scale with cluster height. The resulting mean dimensions are approximately
 
 \[
 \Delta_x\simeq 3\Delta_y, \qquad \Delta_z\simeq 1.5\Delta_y.
 \]
 
-The population is scale-dependent. In figure 9(a) of [3], the number density per unit wall area and unit height has a power-law tail. Figure 10 shows that its exponent approaches \(-3\) as the vortex threshold approaches the percolation transition. This is the population law expected for Townsend-like geometrical self-similarity. The individual structures are not simple arches: figure 6(b) and the conclusions of [3] describe the larger clusters as internally complicated objects whose conditional average can nevertheless resemble a vortex loop.
+![Attached vortex-cluster dimensions as functions of wall distance](assets/figures/vortex-cluster-size-scaling.png)
 
-![Representative detached and tall attached three-dimensional vortex clusters](assets/figures/vortex-clusters-attached-detached.png)
+*Figure 1. Joint distributions of attached-cluster streamwise and spanwise dimensions versus the wall distance of their centres. The diagonal trends, obtained in the S1900 channel at \(Re_\tau\approx1900\), are the direct evidence for geometrical self-similarity. Extracted from del Álamo et al. [3], source figure 7.*
 
-*Figure 1. A detached cluster (left) and a tall attached cluster (right). The attached object is not a single idealised arch. Extracted from del Álamo et al. [3], source figure 6.*
+The S1900 Reynolds number is comparable to the upper range of the boundary-layer interface data in [9], although the flow geometry is different. Figure 1 establishes the hierarchy within the channel; it does not by itself identify a channel cluster with a boundary-layer interface patch. The population is scale-dependent. In figure 9(a) of [3], the number density per unit wall area and unit height has a power-law tail. Figure 10 shows that its exponent approaches \(-3\) as the vortex threshold approaches the percolation transition. This is the population law expected for Townsend-like geometrical self-similarity.
 
 Lozano-Durán *et al.* [5] performed the corresponding analysis for intense momentum-transfer objects. Their figure 2 separates attached from detached Q objects. At the selected threshold, the attached Q2/Q4 objects occupy less than 8% of a wall-parallel plane but contribute approximately 60% of the mean Reynolds shear stress at all heights. This is a more precise and defensible statement than saying that the structures occupy the entire flow or carry more than 80% of the stress.
 

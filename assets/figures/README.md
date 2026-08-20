@@ -4,7 +4,7 @@ These images are cropped from the author-hosted article PDFs linked in the paper
 
 | File | Source figure | Source |
 |---|---:|---|
-| `vortex-clusters-attached-detached.png` | 6 | del Álamo et al. (2006), JFM 561, doi:10.1017/S0022112006000814 |
+| `vortex-cluster-size-scaling.png` | 7 | del Álamo et al. (2006), JFM 561, doi:10.1017/S0022112006000814 |
 | `q-events-attached-stress.png` | 2 | Lozano-Durán et al. (2012), JFM 694, doi:10.1017/jfm.2011.524 |
 | `q-event-self-similar-sizes.png` | 5 | Lozano-Durán et al. (2012), JFM 694, doi:10.1017/jfm.2011.524 |
 | `q-event-composite-objects.png` | 8 | Lozano-Durán et al. (2012), JFM 694, doi:10.1017/jfm.2011.524 |

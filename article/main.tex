@@ -11,6 +11,7 @@
 \usepackage{enumitem}
 \usepackage{natbib}
 \usepackage{placeins}
+\usepackage{flafter}
 \usepackage{xcolor}
 \usepackage[colorlinks=true,allcolors=blue!55!black]{hyperref}
 
@@ -90,18 +91,20 @@ It is not generally equal to $\Pr\{h_k>y\}$, where $h_k$ is a cluster height.  P
 
 \subsection{Three-dimensional attached objects}
 
-The vortex-cluster analysis of \citet{DelAlamoEtAl2006} separates compact detached objects from tall attached objects.  Figure~\ref{fig:vortex-clusters} illustrates that the attached cluster is not a single idealised arch but an internally complicated object.  Its Cartesian bounding dimensions scale approximately as
+The vortex-cluster analysis of \citet{DelAlamoEtAl2006} separates compact detached objects from tall attached objects.  Rather than using one arbitrarily selected cluster as evidence for the hierarchy, figure~\ref{fig:vortex-scaling} shows the population statistics directly.  The Cartesian bounding dimensions scale approximately as
 \begin{equation}
  \Delta_x\simeq 3\Delta_y,\qquad \Delta_z\simeq 1.5\Delta_y.
  \label{eq:vortex-aspect}
 \end{equation}
+The data in figure~\ref{fig:vortex-scaling} are from the S1900 channel at $\Rey_\tau\simeq1900$, comparable to the upper friction-Reynolds-number range of the boundary-layer interface data discussed in section~\ref{sec:interface}.  Reynolds number is therefore not the main mismatch between the two datasets; flow geometry and object definition are.  Figure~\ref{fig:vortex-scaling} establishes a channel hierarchy but does not identify a channel cluster with a boundary-layer interface patch.
+
 The number density per unit wall area and height has a power-law tail.  As the identification threshold approaches the percolation transition, its exponent approaches $-3$, as expected for a Townsend-like geometrically self-similar population \citep{Townsend1976,DelAlamoEtAl2006}.
 
 \begin{figure}[tb]
  \centering
- \includegraphics[width=0.88\linewidth]{vortex-clusters.png}
- \caption{Representative detached (left) and tall attached (right) vortex clusters.  The tall cluster is a multiscale connected object rather than one idealised vortex arch. Reproduced from figure~6 of \citet{DelAlamoEtAl2006}.}
- \label{fig:vortex-clusters}
+ \includegraphics[width=0.88\linewidth]{vortex-cluster-scaling.png}
+ \caption{Joint distributions of attached-cluster streamwise (a) and spanwise (b) dimensions versus the wall distance of their centres. The diagonal trends are the direct evidence for geometrical self-similarity. Data are from the S1900 channel at $\Rey_\tau\simeq1900$. Reproduced from figure~7 of \citet{DelAlamoEtAl2006}.}
+ \label{fig:vortex-scaling}
 \end{figure}
 
 \citet{LozanoDuranEtAl2012} performed a corresponding three-dimensional analysis of intense momentum-transfer events.  Their objects separate into attached and detached populations (figure~\ref{fig:q-stress}).  At their selected threshold, attached Q2 and Q4 objects occupy less than 8\% of a wall-parallel plane but account for approximately 60\% of the mean Reynolds shear stress at all heights.  This threshold-specific statement is more defensible than claiming that such objects fill the flow or carry nearly all of the stress.
