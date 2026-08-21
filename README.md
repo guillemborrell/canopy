@@ -1,5 +1,5 @@
-# A Structural Framework for Wall-Bounded Turbulence:
-## The Boundary Layer as an Unconfined, Intermittent Canopy
+# The Canopy Hypothesis
+## The Outer Region of a Turbulent Boundary Layer as an Unconfined Intermittent Hierarchy
 
 > **Publication version:** [compiled PDF](article/main.pdf) · [LaTeX source and arXiv instructions](article/)
 
