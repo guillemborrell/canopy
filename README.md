@@ -203,7 +203,7 @@ This quantitative difference supports the canopy hypothesis in a limited but rel
 
 ---
 
-## 6. A weak cluster-to-interface connection
+## 6. The cluster-to-interface connection
 
 The argument deliberately combines strong observations through one weak inference:
 
