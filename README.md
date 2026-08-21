@@ -231,7 +231,14 @@ There is no baroclinic source in this equation. The wall supplies vorticity to a
 
 ## 7. Direct tests of the intermittent-canopy hypothesis
 
-The synthesis can be tested quantitatively with existing or modest extensions of existing DNS data.
+The synthesis can be tested quantitatively with existing or modest extensions of existing DNS data. Because a spatially developing boundary layer changes Reynolds number with streamwise position, all interface thresholds and conditional vorticity/strain comparisons must use the star normalisation
+
+\[
+\omega^*=\omega^+\sqrt{\delta_{99}^+},\qquad
+S^*=S^+\sqrt{\delta_{99}^+}.
+\]
+
+This is necessary to remove the systematic change of the edge-gradient scale with \(\delta_{99}^+\); a fixed wall-unit threshold would otherwise mix Reynolds-number evolution with the proposed canopy statistics.
 
 ### 7.1 Joint object/interface labelling
 
