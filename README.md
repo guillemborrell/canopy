@@ -183,14 +183,35 @@ This is the weak bridge used in the present hypothesis. Independent boundary-lay
 
 ---
 
-## 5. A weak cluster-to-interface connection
+## 5. Comparative evidence: channel global mode versus open canopy
+
+A channel supplies a quantitative counterfactual for the canopy hypothesis. Jiménez *et al.* [4] show that large-scale correlations cross the centreline and that ejections from one half penetrate the other. The largest attached motions can therefore be incorporated into a global centre-channel organisation. A TBL has no opposing turbulent half-channel: its attached population instead approaches an open intermittent boundary.
+
+![Quadrant contributions and channel correlations that cross the centreline](assets/figures/channel-centreline-coupling.png)
+
+*Figure 9. Why the channel is a useful counterfactual. Panel (a) compares quadrant contributions; panels (b,c) show large-scale channel correlations crossing \(y/\delta=1\). In a channel, outer attached motions enter a global centreline organisation rather than terminating at an open intermittent canopy. Extracted from Jiménez et al. [4], source figure 5.*
+
+Higher-Reynolds-number one-point statistics confirm the difference. Figure 6 of Sillero, Jiménez & Moser [6] shows that all three velocity-component intensities exceed their channel values in the TBL, with the largest difference near \(y/\delta\simeq0.35\)–0.5 and little change in that location between the two Reynolds numbers compared. This is consistent with an edge-mediated pressure and entrainment effect, not with the outer TBL being dynamically empty.
+
+The three-dimensional correlations in Sillero *et al.* [8] quantify the difference. Weak streamwise-velocity correlations are **longer in channels**, reaching approximately \(18\delta\), than in boundary layers, where they reach approximately \(7\delta\), even though their cross-flow organisation is qualitatively similar. The channel maximum occurs near \(y/\delta\simeq0.5\); the authors suggest that intermittency prevents the corresponding global channel structure from forming in the TBL.
+
+![Integral correlation lengths in channels and boundary layers](assets/figures/boundary-layer-channel-correlation-lengths.png)
+
+*Figure 10. Quantitative evidence that the centre-channel mode is not reproduced in the boundary layer. In panel (a), the red channel streamwise correlation continues to grow to \(y/\delta\approx0.5\), whereas the black boundary-layer curve levels off earlier; panels (b,c) show the shorter transverse scales. Extracted from Sillero et al. [8], source figure 10.*
+
+This quantitative difference supports the canopy hypothesis in a limited but relevant way. In a channel, the largest attached motions can be subsumed into a global centreline mode. In a boundary layer, that competing organisation is absent: the attached population can instead become sparse and terminate at the open TNTI. Correlations do not identify vortex clusters, so this is comparative support rather than a direct cluster measurement.
+
+---
+
+## 6. A weak cluster-to-interface connection
 
 The argument deliberately combines strong observations through one weak inference:
 
 1. In channels, attached vortex and momentum-transfer clusters form a wall-similar hierarchy, are associated with ejections, and preserve height-based length, velocity, and time scaling to the outermost wall distances.
-2. Independent ZPG-boundary-layer measurements and DNS recover wall-attached packet and velocity structures through the logarithmic layer, reaching approximately \(0.2\delta_{99}\).
-3. Interface-conditioned statistics include the local intermittent valleys and peaks and show that the normalised straining environment in the interface buffer is essentially the same as in the turbulent core.
-4. The same wall-derived scaling for \(\omega\) and \(S\) remains applicable through the local edge and its excursions beyond \(\delta_{99}\), even though turbulent-level amplitudes terminate sharply and the exterior branch is much weaker and potential.
+2. The channel/boundary-layer comparison shows that the global centre-channel mode is an internal-flow organisation absent from the open intermittent boundary layer, allowing the attached population to thin into a canopy rather than being subsumed at a centreline.
+3. Independent ZPG-boundary-layer measurements and DNS recover wall-attached packet and velocity structures through the logarithmic layer, reaching approximately \(0.2\delta_{99}\).
+4. Interface-conditioned statistics include the local intermittent valleys and peaks and show that the normalised straining environment in the interface buffer is essentially the same as in the turbulent core.
+5. The same wall-derived scaling for \(\omega\) and \(S\) remains applicable through the local edge and its excursions beyond \(\delta_{99}\), even though turbulent-level amplitudes terminate sharply and the exterior branch is much weaker and potential.
 
 The weak inference is that the attached gradient clusters known in channels are the carriers of the wall-similar physics observed in the boundary-layer core and remain its carriers up to the local interface, including canopy peaks above \(\delta_{99}\). On that basis, we hypothesise that the intermittent region is the sparse upper support of the wall-attached hierarchy and that the TNTI is its convoluted outer envelope. The inference is weak because the channel clusters, boundary-layer attached velocity structures, and interface-conditioned gradients are different observables from different datasets; it is nevertheless constrained by their common scaling and dynamics.
 
@@ -205,37 +226,6 @@ A similarly careful statement is needed about vorticity. For incompressible, con
 \]
 
 There is no baroclinic source in this equation. The wall supplies vorticity to a boundary layer, stretching and tilting redistribute and amplify it, and viscosity diffuses it across the TNTI. But this global statement does not imply a Lagrangian conveyor belt in which identifiable vortex objects travel intact from the wall to \(\delta_{99}\). The tracking evidence argues against that literal interpretation.
-
----
-
-## 6. Boundary layers and channels: open edge versus centreline coupling
-
-A channel is not simply a boundary layer with a reflecting outer boundary. Jiménez *et al.* [4] show two distinct effects. First, their figure 5(b,c) demonstrates that large-scale velocity correlations cross the channel centreline; ejections from one half can penetrate into the other. Second, figures 3 and 4 show that the TBL replaces this interaction with an intermittent mixture of vortical and potential fluid and associated pressure fluctuations. Figure 6 links those pressure effects to different outer energy production, and figure 8 locates the largest spectral-intensity differences around \(y/\delta\simeq0.2\)–0.5.
-
-![Quadrant contributions and channel correlations that cross the centreline](assets/figures/channel-centreline-coupling.png)
-
-*Figure 9. Quadrant contributions in a channel and boundary layer (a), followed by wall-normal (b) and streamwise (c) large-scale channel correlations. The contours crossing \(y/\delta=1\) demonstrate centreline coupling but do not, on their own, demonstrate a destructive collision. Extracted from Jiménez et al. [4], source figure 5.*
-
-Higher-Reynolds-number one-point statistics confirm the difference. Figure 6 of Sillero, Jiménez & Moser [6] shows that all three velocity-component intensities exceed their channel values in the TBL, with the largest difference near \(y/\delta\simeq0.35\)–0.5 and little change in that location between the two Reynolds numbers compared. This is consistent with an edge-mediated pressure and entrainment effect, not with the outer TBL being dynamically empty.
-
-The three-dimensional correlations in Sillero *et al.* [8] provide the strongest correction to the earlier “channel traffic jam” interpretation:
-
-* Figures 3, 5, 9, and 10 show that weak streamwise-velocity correlations are **longer in channels**, reaching approximately \(18\delta\), than in boundary layers, where they reach approximately \(7\delta\).
-* Figure 4 shows that the cross-flow organisation is nevertheless qualitatively similar in the two flows.
-* Figure 10 places the channel maximum near \(y/\delta\simeq0.5\); the authors suggest that intermittency prevents the corresponding global structure from forming in the TBL.
-* Figure 12 shows that the \(u\)-\(v\) cross-correlation has an extent intermediate between the long streamwise-velocity and short wall-normal-velocity correlations. The source paper warns that this correlation is not itself the geometry of instantaneous momentum transfer.
-* Figure 18 shows that channel ejections are much longer than sweeps in the outer region, while their lengths are closer in the boundary layer.
-
-![Integral correlation lengths in channels and boundary layers](assets/figures/boundary-layer-channel-correlation-lengths.png)
-
-*Figure 10. Integral correlation lengths for the three velocity components. In panel (a), the red channel curve for streamwise velocity continues to grow to \(y/\delta\approx0.5\), while the black boundary-layer curve levels off much earlier. Extracted from Sillero et al. [8], source figure 10.*
-
-Thus there is evidence for centreline crossing and coupling, but not for the claim that opposing hierarchies collide and destroy self-similar scaling. Nor do the cited figures show pressure–strain being artificially reoriented by a collision. If anything, the longest global streamwise modes are more developed in channels. The defensible comparison is:
-
-* **Channel:** no TNTI, communication across the centreline, and very long global streamwise modes.
-* **Boundary layer:** an open, intermittent edge, stronger pressure and transverse-velocity fluctuations, shorter streamwise correlations, and rapid correlation growth in the potential region.
-
-“Unconfined” therefore does not mean “simpler.” It means that the outer boundary condition is supplied by an irrotational free stream rather than by another turbulent half-channel.
 
 ---
 
@@ -281,7 +271,7 @@ The published evidence supports a unified but qualified structural narrative.
 1. **Hierarchy.** Three-dimensional vortex clusters and intense Reynolds-stress objects contain attached, approximately self-similar families with wall-parallel dimensions proportional to their height [3,5]. At the threshold of [5], attached Q objects carry about 60% of the Reynolds stress while covering less than 8% of a plane.
 2. **Wall similarity.** Tracked tall attached structures preserve geometrical and temporal similarity: their dimensions scale with height and their lifetimes with \(\Delta_y/u_\tau\) [7]. Independent boundary-layer studies recover analogous attached organisation to approximately \(0.2\delta_{99}\) [12–14].
 3. **Wall scaling at the edge.** The same wall-derived star scaling for vorticity and strain remains applicable through and beyond the mean \(\delta_{99}\). Core-like normalised straining persists up to the turbulent side, even though turbulent-level amplitudes terminate sharply and only a weak potential branch remains outside [9, figures 20 and 23].
-4. **Internal versus external flows.** Channel structures and correlations cross the centreline, whereas TBLs interact with potential fluid through intermittency and pressure. Channels possess longer, not shorter, global streamwise correlations [4,6,8].
+4. **Comparative support.** Channels develop a global centreline mode with streamwise correlations much longer than those in boundary layers. Its absence from the TBL removes a competing outer organisation and allows the attached hierarchy to thin towards an open canopy [4,6,8].
 5. **Weak cluster-to-interface connection.** Because the interface buffer has essentially the same normalised straining environment as the core, we infer that the wall-attached hierarchy carries its wall-similar physics from approximately \(0.2\delta_{99}\) to the local TNTI, including peaks above \(\delta_{99}\). The interface is proposed to be the envelope where that sparse hierarchy terminates.
 
 The main value of the canopy framework is therefore not that it abolishes the outer layer, but that it proposes a weak, testable identification between the wall-similar attached hierarchy and the structural support of the T/NT interface. Figures 7 and 8 constrain that identification by showing respectively that wall-derived scaling remains applicable across the intermittent excursions, despite the amplitude separation at the edge, and that the normalised organisation remains core-like up to the turbulent side.
