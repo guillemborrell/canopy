@@ -115,35 +115,33 @@ for the self-similar attached Q family.
 
 ![Joint distributions of attached Q-object dimensions](assets/figures/q-event-self-similar-sizes.png)
 
-*Figure 3. Joint size distributions for attached Q2 and Q4 objects. The diagonal trends in panels (a) and (b) provide the evidence for dimensions proportional to object height; panel (d) shows the departure of the largest outer objects from the simpler family. Extracted from Lozano-Durán et al. [5], source figure 5.*
+*Figure 3. Candidate building blocks of the canopy. The diagonal trends in panels (a,b) show dimensions proportional to object height. Panel (d) shows that the largest thresholded objects depart from the simple family and should be interpreted as composites rather than single self-similar eddies. Extracted from Lozano-Durán et al. [5], source figure 5.*
 
-The close agreement with the vortex-cluster dimensions is significant, but it does not imply identity. Figure 10(a) shows that more than 80% of attached vortex clusters intersect a Q object, while the reverse probability decreases with height because tall Q objects outnumber tall vortex clusters. Figure 11 and the conditional field in figure 12 support a predominant side-by-side Q2–Q4 pair, with a vortex cluster preferentially associated with the Q2 and the shear layer beneath the Q4.
+The close agreement with the vortex-cluster dimensions is significant, but it does not imply identity. Figure 10(a) shows that more than 80% of attached vortex clusters intersect a Q object, while the reverse probability decreases with height because tall Q objects outnumber tall vortex clusters. Figure 11 and the conditional field in figure 12 support a predominant side-by-side Q2–Q4 pair, with a vortex cluster preferentially associated with the Q2 and the shear layer beneath the Q4. For the canopy hypothesis, this association matters because the Q2 ejection supplies the outward-transport component linked to the vortical object.
 
 ![Conditional and instantaneous Q2-Q4 pair structures](assets/figures/q2-q4-conditional-pair.png)
 
-*Figure 4. Conditional geometry, one instantaneous realisation, and the associated velocity field of a Q2–Q4 pair. Green denotes Q2, blue Q4, and grey the vortex cluster in the upper panels. Extracted from Lozano-Durán et al. [5], source figure 12.*
+*Figure 4. Candidate transport element of the canopy: a Q2–Q4 pair and its associated velocity field. Green denotes the Q2 ejection, blue the Q4 sweep, and grey the vortex cluster. The cluster–ejection association links the vortical hierarchy to outward transport. Extracted from Lozano-Durán et al. [5], source figure 12.*
 
 The channel result is not the only evidence for an attached hierarchy. In ZPG boundary layers, Tomkins & Adrian [12] found spanwise scales growing linearly with wall distance, Dennis & Nickels [13] measured three-dimensional vortex-packet signatures, and Hwang & Sung [14] identified self-similar attached structures in all three velocity components. The last study reconstructed logarithmic intensity from the attached population over \(100<y^+<0.18\delta^+\). These studies concern velocity or planar vortex signatures rather than the connected gradient clusters used here, and they stop below the intermittent edge. Nevertheless, they anchor the wall-attached hierarchy in a boundary layer at approximately \(0.2\delta\), rather than only in channels.
 
-Together, these observations justify three ingredients of the canopy model:
+Together, these observations provide the proposed canopy with candidate building blocks and a transport mechanism:
 
-* attached momentum-transfer and vortex objects span a hierarchy of heights;
-* their wall-parallel dimensions are proportional to their height over the self-similar range;
-* sparse intense objects make a disproportionate contribution to momentum transfer.
+* height-scaled attached objects supply the hierarchy;
+* their association with Q2 ejections supplies outward transport;
+* their decreasing population with height supplies the sparsity required near the edge.
 
 They do not justify treating velocity, stress, and vorticity objects as interchangeable.
 
-### 3.2 Large objects are often composites
+### 3.2 From self-similar elements to a canopy
 
-Self-similarity breaks down for the largest channel structures. Figure 8(d) of [5] shows a very-large Q2 that crosses the channel centreline and is visibly assembled from smaller pieces. Figure 6 shows that objects crossing the centreline account for roughly one third of the stress carried by attached Q objects; fewer than 1% of the objects account for about 60% of their volume. Their streamwise lengths can approach \(20\delta\), well beyond the aspect ratio of the self-similar family.
+The canopy hypothesis does not require the outer layer to be one giant coherent object. Simple self-similarity breaks down for the largest thresholded channel structures. Figure 8(d) of [5] shows a very-large Q2 crossing the centreline that is visibly assembled from smaller pieces. Objects crossing the centreline account for roughly one third of the stress carried by attached Q objects; fewer than 1% of the objects account for about 60% of their volume; and their streamwise lengths can approach \(20\delta\).
 
 ![Attached cluster, attached Q2, and a composite centreline-crossing Q2 object](assets/figures/q-event-composite-objects.png)
 
-*Figure 5. An attached vortex cluster (b), an attached Q2 (c), and a very-large centreline-crossing Q2 (d). The last object is visibly composite. Extracted from Lozano-Durán et al. [5], source figure 8.*
+*Figure 5. From elements to canopy. Panels (b,c) show an attached vortex cluster and Q2; panel (d) shows a very-large centreline-crossing Q2 assembled from smaller pieces. The canopy is interpreted as the sparse union of height-scaled elements, not as one monolithic eddy. Extracted from Lozano-Durán et al. [5], source figure 8.*
 
-This distinction prevents two misleading conclusions. First, the height of a percolated object is not necessarily the size of one dynamical eddy. Second, a long low-speed correlation or spectral mode need not be one continuous vortex packet. Thresholded objects can concatenate, and correlations combine repeated or aligned substructures.
-
-The spectral evidence is consistent with this multilevel picture. Figure 3 of del Álamo *et al.* [2] shows that the two-dimensional streamwise-velocity spectrum is not described by one geometrical scaling: its width varies roughly as the square root of its length, and the largest “global” modes use an outer velocity scale. Thus even below the TNTI, a structural model has to distinguish active momentum-transfer motions from longer, partly inactive streamwise-velocity organisation.
+This composite character is part of the canopy argument rather than an exception to it. The TNTI would be the envelope of the union of many overlapping height-scaled elements; it need not coincide with the boundary of one segmented cluster. Consequently, the height of a percolated object is not the size of one dynamical eddy. Long streamwise-velocity correlations and global spectral modes can also combine active and inactive motions and should not be identified with the rotational canopy itself [2].
 
 ### 3.3 Preservation of wall similarity
 
