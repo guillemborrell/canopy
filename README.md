@@ -7,7 +7,7 @@
 
 This paper develops a structural interpretation of the outer region of a zero-pressure-gradient turbulent boundary layer (ZPG TBL) by combining three results that are usually discussed separately: the hierarchy of wall-attached momentum-transfer and vortex structures, their temporal similarity, and the geometry of the turbulent/non-turbulent interface (TNTI). The evidence supports a *canopy* picture in which self-similar motions of many sizes overlap below the boundary-layer edge, while only the largest motions reach the intermittent region. Published figures show that intense attached Reynolds-stress objects in channels have dimensions approximately proportional to their height and carry about 60% of the Reynolds stress while occupying less than 8% of a wall-parallel plane at the identification threshold used by Lozano-Durán, Flores & Jiménez (2012). Related vortex clusters have comparable aspect ratios and a scale-dependent population. Independent boundary-layer experiments and DNS identify analogous wall-attached packet and velocity structures through the logarithmic layer, although not at the TNTI itself. Time-resolved tracking shows that tall attached structures preserve the same similarity in time: their lifetimes scale with their height and \(u_\tau\). They can therefore contribute to a canopy without introducing a new outer time scale that would break wall similarity.
 
-At the outer boundary, we adopt the vorticity-interface definition and conditional coordinate established by Borrell & Jiménez (2016). Their figure 20 shows that turbulent-level vorticity and strain terminate near the edge: the strain drops by more than one order of magnitude before the much weaker potential-flow branch decays exponentially. Their figure 23 shows that, on the turbulent side, locally normalised stretching and strain geometry remain similar between the interface buffer and the core. We hypothesise that the TNTI is the convoluted outer envelope at which the wall-attached cluster hierarchy terminates: the intermittent region is where that hierarchy becomes sparse. The resulting cluster-to-interface connection is deliberately weak: attached structures are established in the cluster-bearing core, and interface-conditioned data show similar normalised physics up to the local turbulent edge, including its intermittent excursions, but the two have not been labelled jointly. This weak connection yields direct predictions for joint cluster/interface measurements.
+At the outer boundary, we adopt the vorticity-interface definition and conditional coordinate established by Borrell & Jiménez (2016). Their figure 20 shows that the same wall-derived star scaling for vorticity and strain remains applicable through and well past the mean \(\delta_{99}\), including intermittent excursions. This scaling continuity does not imply amplitude continuity: strain drops by more than one order of magnitude before the much weaker potential-flow branch decays exponentially. Their figure 23 shows that, on the turbulent side, locally normalised stretching and strain geometry remain similar between the interface buffer and the core. We hypothesise that the TNTI is the convoluted outer envelope at which the wall-attached cluster hierarchy terminates: the intermittent region is where that hierarchy becomes sparse. The resulting cluster-to-interface connection is deliberately weak: attached structures are established in the cluster-bearing core, and interface-conditioned data show similar normalised physics up to the local turbulent edge, including its intermittent excursions, but the two have not been labelled jointly. This weak connection yields direct predictions for joint cluster/interface measurements.
 
 ---
 
@@ -41,13 +41,14 @@ Let \(x\), \(y\), and \(z\) denote the streamwise, wall-normal, and spanwise dir
 
 A quadrant object is a connected region in which the instantaneous tangential Reynolds stress exceeds a threshold. Ejections are Q2 events, \(u<0\), \(v>0\), and sweeps are Q4 events, \(u>0\), \(v<0\). In the work of Lozano-Durán *et al.* [5], an object is called attached when its lowest point lies within about 20 wall units of the wall. This is an operational definition of geometric connectivity, not a statement that the entire object was born at the wall.
 
-The vorticity magnitude is \(\omega=|\boldsymbol{\omega}|\). Following Borrell & Jiménez [9], a vorticity interface is constructed from an isosurface \(\omega=\omega_0\), after removing disconnected drops and bubbles when required. Their dimensionless interface scale is
+The vorticity magnitude is \(\omega=|\boldsymbol{\omega}|\). Following Borrell & Jiménez [9], a vorticity interface is constructed from an isosurface \(\omega=\omega_0\), after removing disconnected drops and bubbles when required. Their dimensionless interface scales are
 
 \[
-\omega^{*}
- = \omega^{+}\sqrt{\delta_{99}^{+}}
- = \omega\,\frac{\nu}{u_\tau^{2}}\sqrt{\frac{u_\tau\delta_{99}}{\nu}}.
+\omega^{*}=\omega^{+}\sqrt{\delta_{99}^{+}}, \qquad
+S^{*}=S^{+}\sqrt{\delta_{99}^{+}},
 \]
+
+where \(\omega^+=\omega\nu/u_\tau^2\) and \(S^+=S\nu/u_\tau^2\).
 
 Equivalently, the dimensional edge-vorticity scale is
 
@@ -159,21 +160,15 @@ Thus the tracked structures introduce neither a separate outer length nor a sepa
 
 ---
 
-## 4. Termination at the established T/NT interface
+## 4. Wall-similar physics at the established T/NT interface
 
-We use the interface-conditioned statistics reported by Borrell & Jiménez [9] directly. Because their coordinate follows the local interface, the conditional ensemble includes both valleys below and bulges above the mean \(\delta_{99}\). The present question is what those statistics imply for the canopy framework.
-
-### 4.1 Separation of turbulent and potential strain
-
-Figure 20 of Borrell & Jiménez [9] must not be read as showing turbulent strain extending continuously into the free stream. The dominant turbulent strain and vorticity occupy comparable \(O(1)\) star-unit levels below the edge. Across the edge, the strain support drops by more than one order of magnitude. Only after that drop does the much weaker irrotational branch follow the exponential decay associated with a wall-parallel wavelength of order \(2\delta_{99}\).
-
-For the canopy hypothesis, the important observation is the termination of the high-amplitude rotational and strain field. The weak potential branch outside is a non-vortical response of the free stream, not a continuation of the turbulent canopy.
+We use the interface-conditioned statistics reported by Borrell & Jiménez [9] directly. Because their coordinate follows the local interface, the conditional ensemble includes both valleys below and bulges above the mean \(\delta_{99}\). Figure 7 records the relevant scaling observation; the amplitude distinction between turbulent and potential strain is noted in its caption.
 
 ![Wall-normal support of vorticity and strain across the boundary-layer edge](assets/figures/outer-strain-vorticity-support.png)
 
-*Figure 7. Joint wall-normal distributions of vorticity (blue dashed contours) and strain (black solid contours). Turbulent-level strain drops by more than one order of magnitude near the edge; the remaining weak potential branch follows the exponential decay marked in red. This is a separation of regimes, not continuous turbulent strain into the free stream. Extracted from Borrell & Jiménez [9], source figure 20.*
+*Figure 7. Joint wall-normal distributions in the same wall-derived star units: vorticity \(\omega^*\) (blue dashed contours) and strain \(S^*\) (black solid contours). The relevance to the hypothesis is that this scaling remains applicable through and well past the mean \(\delta_{99}\), including intermittent excursions sampled by the local interface. This is scaling continuity, not amplitude continuity: turbulent-level strain drops by more than one order of magnitude near the edge, after which the much weaker potential branch follows the exponential decay marked in red. Extracted from Borrell & Jiménez [9], source figure 20.*
 
-### 4.2 Core-like organisation up to the turbulent side
+### 4.1 Core-like organisation up to the turbulent side
 
 The original canopy argument treated the interface as the point where cluster tips lose mean-shear production and decay purely by viscosity. The conditional data require a more nuanced description.
 
@@ -195,7 +190,7 @@ The argument deliberately combines strong observations through one weak inferenc
 1. In channels, attached vortex and momentum-transfer clusters form a wall-similar hierarchy, are associated with ejections, and preserve height-based length, velocity, and time scaling to the outermost wall distances.
 2. Independent ZPG-boundary-layer measurements and DNS recover wall-attached packet and velocity structures through the logarithmic layer, reaching approximately \(0.2\delta_{99}\).
 3. Interface-conditioned statistics include the local intermittent valleys and peaks and show that the normalised straining environment in the interface buffer is essentially the same as in the turbulent core.
-4. Turbulent-level vorticity and strain then terminate sharply at the TNTI; the exterior branch is much weaker and potential.
+4. The same wall-derived scaling for \(\omega\) and \(S\) remains applicable through the local edge and its excursions beyond \(\delta_{99}\), even though turbulent-level amplitudes terminate sharply and the exterior branch is much weaker and potential.
 
 The weak inference is that the attached gradient clusters known in channels are the carriers of the wall-similar physics observed in the boundary-layer core and remain its carriers up to the local interface, including canopy peaks above \(\delta_{99}\). On that basis, we hypothesise that the intermittent region is the sparse upper support of the wall-attached hierarchy and that the TNTI is its convoluted outer envelope. The inference is weak because the channel clusters, boundary-layer attached velocity structures, and interface-conditioned gradients are different observables from different datasets; it is nevertheless constrained by their common scaling and dynamics.
 
@@ -285,11 +280,11 @@ The published evidence supports a unified but qualified structural narrative.
 
 1. **Hierarchy.** Three-dimensional vortex clusters and intense Reynolds-stress objects contain attached, approximately self-similar families with wall-parallel dimensions proportional to their height [3,5]. At the threshold of [5], attached Q objects carry about 60% of the Reynolds stress while covering less than 8% of a plane.
 2. **Wall similarity.** Tracked tall attached structures preserve geometrical and temporal similarity: their dimensions scale with height and their lifetimes with \(\Delta_y/u_\tau\) [7]. Independent boundary-layer studies recover analogous attached organisation to approximately \(0.2\delta_{99}\) [12–14].
-3. **Termination at the edge.** Turbulent-level vorticity and strain terminate near the TNTI in a drop of more than one order of magnitude. Core-like normalised straining persists up to the turbulent side, while only a weak exponentially decaying potential branch remains outside [9, figures 20 and 23].
+3. **Wall scaling at the edge.** The same wall-derived star scaling for vorticity and strain remains applicable through and beyond the mean \(\delta_{99}\). Core-like normalised straining persists up to the turbulent side, even though turbulent-level amplitudes terminate sharply and only a weak potential branch remains outside [9, figures 20 and 23].
 4. **Internal versus external flows.** Channel structures and correlations cross the centreline, whereas TBLs interact with potential fluid through intermittency and pressure. Channels possess longer, not shorter, global streamwise correlations [4,6,8].
 5. **Weak cluster-to-interface connection.** Because the interface buffer has essentially the same normalised straining environment as the core, we infer that the wall-attached hierarchy carries its wall-similar physics from approximately \(0.2\delta_{99}\) to the local TNTI, including peaks above \(\delta_{99}\). The interface is proposed to be the envelope where that sparse hierarchy terminates.
 
-The main value of the canopy framework is therefore not that it abolishes the outer layer, but that it proposes a weak, testable identification between the wall-similar attached hierarchy and the structural support of the T/NT interface. Figures 7 and 8 constrain that identification by showing respectively where turbulent-level gradients terminate and that their normalised organisation remains core-like up to the turbulent side.
+The main value of the canopy framework is therefore not that it abolishes the outer layer, but that it proposes a weak, testable identification between the wall-similar attached hierarchy and the structural support of the T/NT interface. Figures 7 and 8 constrain that identification by showing respectively that wall-derived scaling remains applicable across the intermittent excursions, despite the amplitude separation at the edge, and that the normalised organisation remains core-like up to the turbulent side.
 
 ---
 

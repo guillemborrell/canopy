@@ -7,7 +7,7 @@ This directory contains a self-contained LaTeX version of the canopy paper.
 - `main.tex` — article source
 - `references.bib` and `main.bbl` — bibliography source and generated bibliography
 - `figures/` — publication crops of the cited source figures
-- `main.pdf` — compiled 14-page article
+- `main.pdf` — compiled 13-page article
 - `arxiv-metadata.txt` — suggested submission metadata
 
 ## Build
